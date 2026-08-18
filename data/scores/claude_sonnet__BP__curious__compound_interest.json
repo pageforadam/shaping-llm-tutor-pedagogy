@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__curious__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor builds coherently on the student's turns, and accurately addresses the student's questions about the assumption and the case of different rates."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the problem step-by-step for the student, revealing the final answer directly without prompting the student to work out any steps themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is consistently warm, encouraging, and natural, with supportive phrases like 'Great start!', 'Exactly right!', and emojis, responding positively to the student's curiosity."
+    },
+    "salient_excerpt": "Step 1: Divide both sides by 2050: (1 + x/100)^2 = 2124.46/2050 = 1.036322... Step 2: Square root both sides: 1 + x/100 = sqrt(1.036322) = 1.018 Step 3: Subtract 1 from both sides: x/100 = 0.018 Step 4: Multiply both sides by 100: x = 1.8"
+  }
+}

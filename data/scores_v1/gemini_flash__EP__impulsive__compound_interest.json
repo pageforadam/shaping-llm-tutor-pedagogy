@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__impulsive__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct; the tutor accurately identifies the student's initial error and builds coherently on each student turn to reach the correct solution."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently guides with targeted questions and hints (e.g., asking for the first-year amount, then the equation for the next two years) without ever revealing the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm and encouraging throughout, praising correct steps ('Spot on!', 'Absolutely brilliant!') and framing the error as a learning opportunity."
+    },
+    "salient_excerpt": "Just to help you reflect on your progress: looking back at your first attempt where you got 3%, can you see what might have led to that result?"
+  }
+}

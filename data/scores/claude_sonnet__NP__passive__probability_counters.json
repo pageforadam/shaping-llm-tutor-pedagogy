@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__passive__probability_counters",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor's response logically builds on the student's request."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem step-by-step and reveals the answer, leaving no strategic thinking for the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses a warm, supportive tone, acknowledges frustration, and ends with an encouraging message and emoji."
+    },
+    "salient_excerpt": "I can see you're frustrated, but let me walk you through it step by step - you'll understand it much better that way, and it's not as hard as it looks!"
+  }
+}

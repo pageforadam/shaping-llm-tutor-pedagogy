@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__curious__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical content is correct and the tutor consistently builds on the student's responses, accurately confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor names each step for the student to execute (factorise, find critical values, determine solution) and provides the strategic reasoning about the parabola, making it directive rather than fully elicitive."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout ('great start', 'Spot on', 'Perfect', 'You nailed it', 'Fantastic job'), maintaining a natural and supportive tone."
+    },
+    "salient_excerpt": "\"How would you write this as your final inequality solution? (Think about the values of x that are to the left of -1 and to the right of 4).\""
+  }
+}

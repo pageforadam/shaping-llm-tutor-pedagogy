@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__impulsive__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor accurately identifies the student's mistake in simplifying the fraction."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire equation for the student step-by-step, revealing the final answer without prompting the student to work out any steps themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout, including phrases like 'You're on the right track!' and 'Well done for working through this!'"
+    },
+    "salient_excerpt": "Now cross-multiply to eliminate the fractions: 31(r - 1) = 6(5r - 1)."
+  }
+}

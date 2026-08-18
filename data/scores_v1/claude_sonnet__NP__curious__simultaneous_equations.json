@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__curious__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and addressing the student's misunderstanding about dividing by x."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor provides the entire worked solution in the first turn, solving the problem for the student without any scaffolding or Socratic questioning."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, affirming language such as 'That's exactly right' and 'your summary is spot on,' and normalizes the student's question as a common exam mistake."
+    },
+    "salient_excerpt": "\"When you divide by $x$, you're implicitly assuming that **$x \\neq 0$**. This causes you to lose any solution where $x = 0$.\""
+  }
+}

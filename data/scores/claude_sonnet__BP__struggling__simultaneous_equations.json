@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__struggling__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying and confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor names and executes nearly every step for the student (rearranging, substituting, expanding, factorising) rather than prompting the student to figure out the next step themselves, leaving little strategic thinking to the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, using praise, emojis, and supportive language throughout, including when the student expresses uncertainty."
+    },
+    "salient_excerpt": "You're on exactly the right track! The key idea is to rearrange the **simpler equation** (the linear one) first, then substitute it into the harder one."
+  }
+}

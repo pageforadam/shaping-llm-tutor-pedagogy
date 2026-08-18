@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__passive__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor logically builds on the student's statement to derive the answer accurately."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor immediately gives the final answer and full solution without scaffolding or hints, even when the student requested the answer directly."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm, encouraging, and natural throughout, offering praise and support."
+    },
+    "salient_excerpt": "The short answer is that there are **25 red counters** in the box."
+  }
+}

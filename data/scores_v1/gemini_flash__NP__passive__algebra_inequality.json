@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__passive__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and confirming correct reasoning."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor immediately gives the final answer to the student's initial request with no scaffolding, violating the principle of withholding the solution before guiding the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, enthusiastic, and affirming, using phrases like 'Spot on!' and 'You nailed it' to support the student's progress."
+    },
+    "salient_excerpt": "Yes, of course! The final answer is:\n\n**$x < -1$ or $x > 4$**"
+  }
+}

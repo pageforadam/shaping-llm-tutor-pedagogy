@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__impulsive__simultaneous_equations",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor correctly identifies the student's mistake in expanding (2x+5)^2 and provides a clear, step-by-step correction that builds coherently on the student's initial work."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor does not elicit any next steps from the student; instead, it solves the entire problem in detail, naming each step for the student to follow, and the student only then realizes and corrects their mistake independently."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm and encouraging throughout, congratulating the student for catching their mistake and ending with a positive emoji."
+    },
+    "salient_excerpt": "Let me walk you through the correct steps. ... Expand (2x+5)^2: x^2 + (4x^2 + 20x + 25) = 25."
+  }
+}

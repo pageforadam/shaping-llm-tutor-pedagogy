@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__struggling__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout the dialogue, and the tutor consistently builds on the student's turns, accurately identifying and confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive, naming each next step for the student to carry out (e.g., 'Can you try expanding...?', 'What would you do next...?') rather than prompting the student to devise their own strategy."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is consistently warm, encouraging, and natural, with frequent praise ('Exactly right! Well done!', 'Perfect!', 'Fantastic job') that supports the student's progress."
+    },
+    "salient_excerpt": "You're doing a fantastic job. The probability of taking the second red counter is indeed \\( \\frac{r - 1}{5r - 1} \\)."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__passive__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and accurately identifies and corrects the student's mistake about squaring."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses hints and Socratic questions, never reveals the answer prematurely, and provides clear next steps even when the student asks for the answer directly."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor maintains a warm, encouraging tone throughout, uses positive reinforcement and emojis, and responds supportively to the student's frustration and errors."
+    },
+    "salient_excerpt": "I know it can feel overwhelming at first, but I promise we'll get there together — and you'll feel much better having worked it out yourself! 😊"
+  }
+}

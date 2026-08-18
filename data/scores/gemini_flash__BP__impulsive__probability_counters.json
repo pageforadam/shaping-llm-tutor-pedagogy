@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__impulsive__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the student's initial error and builds coherently on each student turn."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to derive steps themselves (e.g., writing the probability expression, solving the equation) without revealing the answer, using Socratic nudges rather than directive commands."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm and encouraging throughout, praising effort and correct work, and ending with a supportive question about the student's confidence."
+    },
+    "salient_excerpt": "Let's test your answer of **5 red counters** together to see if it works."
+  }
+}

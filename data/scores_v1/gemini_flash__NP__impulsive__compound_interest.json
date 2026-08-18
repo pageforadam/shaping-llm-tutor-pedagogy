@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__impulsive__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the student's error and provides a correct step-by-step solution, consistently building on the student's initial setup."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor provides the full step-by-step solution directly rather than guiding with hints or Socratic questions, which is more telling than scaffolding, but it does follow the student's attempt and explains the error."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, supportive language like 'absolutely correct', 'Don't be too hard on yourself', and 'Great job', maintaining an encouraging and natural tone throughout."
+    },
+    "salient_excerpt": "Your setup of the formula is absolutely correct! ... However, it looks like there was a small arithmetic slip when you solved for x."
+  }
+}

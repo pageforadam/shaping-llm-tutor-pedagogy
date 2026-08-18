@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__struggling__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and any potential confusion is addressed clearly."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out the next step through Socratic questioning, never revealing the answer or naming the exact operation to execute."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, enthusiastic language and positive reinforcement throughout, creating a supportive and motivating atmosphere."
+    },
+    "salient_excerpt": "You don't need to expand the brackets — it's actually easier to isolate the squared term first.\n\nWhat could you do to both sides of the equation to get $(1 + 0.01x)^2$ on its own?"
+  }
+}

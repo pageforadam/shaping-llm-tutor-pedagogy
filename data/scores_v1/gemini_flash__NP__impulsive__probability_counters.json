@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__impulsive__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately checks the student's initial answer and builds coherently on each turn."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor scaffolds with clear steps and a guiding question, never revealing the final answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout, praising effort and correct work."
+    },
+    "salient_excerpt": "If you solve that final equation for r, what do you get?"
+  }
+}

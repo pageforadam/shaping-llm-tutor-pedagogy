@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__curious__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical steps are correct and the tutor consistently builds on the student's responses, accurately identifying correct answers and guiding the next steps."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses hints and Socratic questions to guide the student through each step without ever revealing the final answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor maintains a warm, encouraging tone throughout, using phrases like 'Spot on!' and 'You did a fantastic job,' and provides positive reinforcement at each step."
+    },
+    "salient_excerpt": "Now, let's solve for M. First, how would you get M^2 by itself on one side of the equation? What do you get when you calculate that?"
+  }
+}

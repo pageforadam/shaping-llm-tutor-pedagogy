@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__struggling__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and correcting the sign error."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor reveals the entire solution in the first response, including the final answer, rather than guiding the student to discover it step by step."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, encouraging, and supportive throughout, using praise and positive reinforcement especially at the end."
+    },
+    "salient_excerpt": "\"Looking at the sketch, that's the **outside** regions: $$\\boxed{x < -1 \\quad \\text{or} \\quad x > 4}$$\""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__struggling__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and any student mistakes are accurately identified and corrected."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out each step themselves through Socratic questioning, never revealing the answer or naming steps for mere execution."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout, praising correct responses and normalizing confusion, creating a supportive learning environment."
+    },
+    "salient_excerpt": "Good instinct to pause here — this is a really common place to make a mistake! You can't just square each part separately. $(2x + 5)^2 \\neq (2x)^2 + 5^2$."
+  }
+}

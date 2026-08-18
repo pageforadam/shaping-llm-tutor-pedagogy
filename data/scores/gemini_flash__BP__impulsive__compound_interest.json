@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__impulsive__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying the calculation error."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer but directs the student through each step (divide, then square root) rather than prompting the student to devise the strategy."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "Warm, encouraging, natural throughout; responds supportively to errors and uses positive affirmations."
+    },
+    "salient_excerpt": "To get the bracket by itself, you need to divide 2124.46 by your answer from Step 1. What do you get when you do that division, and what is the square root of that result?"
+  }
+}

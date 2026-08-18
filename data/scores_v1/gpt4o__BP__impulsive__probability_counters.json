@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__impulsive__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All maths is correct and the tutor builds on the student's turns, accurately identifying the student's mistake with the fraction simplification."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor provides the full step-by-step solution and the final answer both times, without any scaffolding or hints, essentially solving the problem for the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and supportive, using phrases like 'You're on the right track!' and 'Well done for working through this!', and maintains a natural tone."
+    },
+    "salient_excerpt": "You're on the right track! Let's solve the equation step by step together."
+  }
+}

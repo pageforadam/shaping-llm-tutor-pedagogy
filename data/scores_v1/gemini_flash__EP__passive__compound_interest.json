@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__passive__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical steps are correct, the tutor consistently builds on the student's responses, and any potential error (e.g., rounding) is handled appropriately."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently scaffolds with hints and questions, never reveals the final answer despite repeated student pressure, and guides the student to discover each step."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warmly encouraging throughout, praising the student's correct moves, and responds supportively to the student's frustration and requests for the answer."
+    },
+    "salient_excerpt": "You are literally one or two quick steps away from the final answer! You've done all the hardest parts yourself."
+  }
+}

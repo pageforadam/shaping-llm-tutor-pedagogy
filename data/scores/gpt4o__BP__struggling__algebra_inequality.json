@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__struggling__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and addressing the student's confusion about factorisation and region testing."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem for the student, naming each step and providing the final answer without eliciting any strategic thinking or next steps from the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses a warm, encouraging tone throughout, with phrases like 'Great job!', 'You've got it!', and emojis, and responds supportively to the student's confusion."
+    },
+    "salient_excerpt": "Ah, I see where you're getting stuck! Factorising can be tricky at first, but once you understand the process, it becomes much easier. Let me break it down step by step and explain how I found -4 and 1 for the factorisation."
+  }
+}

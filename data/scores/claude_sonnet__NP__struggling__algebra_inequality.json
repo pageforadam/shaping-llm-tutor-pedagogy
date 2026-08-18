@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__struggling__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying and addressing each point of confusion."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor names every step for the student to carry out (rearrange, factor, find critical values, test regions) rather than prompting the student to work out the next step or strategy themselves, making the interaction highly directive."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, using phrases like 'Don't worry', 'Yes, exactly right!', and 'You've got it exactly right!', and responds supportively to the student's uncertainty about the parabola."
+    },
+    "salient_excerpt": "Yes, absolutely - the test values in the table are exactly that check! You don't have to trust the parabola reasoning at all."
+  }
+}

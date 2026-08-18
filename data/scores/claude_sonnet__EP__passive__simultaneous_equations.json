@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__passive__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying and correcting the student's initial expansion mistake."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses Socratic questioning and hints (e.g., FOIL method, factorising prompts) to elicit each step from the student, never revealing the answer or naming steps for mere execution."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is warm, encouraging, and natural throughout, with positive affirmations (e.g., 'Great work!', 'Brilliant!', emojis) and supportive responses to the student's frustration."
+    },
+    "salient_excerpt": "I won't just show you the answer, but let me give you a hint to help you work it out."
+  }
+}

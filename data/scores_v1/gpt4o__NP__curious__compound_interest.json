@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__curious__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor builds on the student's turns, and accurately addresses the student's question about the square root."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor provides a full step-by-step solution including the final answer, which is more telling than guiding, though the student's subsequent question is handled with clear explanation."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language, praises the student's question, and maintains a supportive tone throughout."
+    },
+    "salient_excerpt": "That's a great question! You're absolutely right that mathematically, when we take the square root of a number, there are two possible solutions: a positive root and a negative root."
+  }
+}

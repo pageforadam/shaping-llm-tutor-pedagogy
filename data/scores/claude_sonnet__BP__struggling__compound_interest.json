@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__struggling__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying and addressing each point of confusion."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem for the student step-by-step, naming each operation and providing the final answer, leaving the student only to confirm understanding rather than work out any strategic steps themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is consistently warm, encouraging, and natural, with frequent use of emojis, praise ('brilliant, well done!'), and supportive responses to the student's uncertainty."
+    },
+    "salient_excerpt": "Let me show you the complete journey from start to finish: | Step | Calculation | ... | Multiply by 100 | $x = 1.8\\%$ |"
+  }
+}

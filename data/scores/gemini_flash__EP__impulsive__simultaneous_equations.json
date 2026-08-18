@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__impulsive__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout; the tutor accurately identifies the student's slip and guides them to the correct expansion and solution."
+    },
+    "guidance_no_solution": {
+      "score": 4,
+      "justification": "The tutor withholds the final answer and prompts the student to show their expansion work and later to find y-values themselves, though the initial correction is slightly directive in naming the specific step to check."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, using phrases like 'Great job', 'Spot on', 'Absolutely brilliant', and 'fantastic job' to support the student."
+    },
+    "salient_excerpt": "To help us find where it went wrong, could you show me how you expanded the bracket $(5 + 2x)^2$ and simplified the equation?"
+  }
+}

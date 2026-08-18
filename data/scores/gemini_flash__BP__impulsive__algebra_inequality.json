@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__impulsive__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "impulsive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the student's error in the final step, and the explanation builds coherently on the student's prior work."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor withholds the final answer, uses a concrete test and conceptual explanation to guide the student, then prompts the student to deduce the correct regions themselves via an elicitive question."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is consistently warm and encouraging, praising the student's correct steps and reasoning, and responding supportively to the student's initial confusion."
+    },
+    "salient_excerpt": "Here is why: for two brackets multiplied together to be positive (greater than 0), there are actually two possibilities: ... what do you think the two correct regions for x should be?"
+  }
+}

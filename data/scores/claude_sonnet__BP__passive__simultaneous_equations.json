@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__passive__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming each step and correcting no errors."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive, naming each next step (e.g., 'expand', 'simplify', 'factorise') for the student to carry out rather than prompting the student to decide the strategy."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, encouraging, and natural throughout, using praise, emojis, and a supportive summary to build confidence."
+    },
+    "salient_excerpt": "You said you didn't know where to start, but look what YOU did: ... You did every single step yourself - I just asked the questions! 😊"
+  }
+}

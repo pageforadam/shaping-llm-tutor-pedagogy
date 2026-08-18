@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__passive__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and accurately identifies and locates the student's incomplete responses."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently scaffolds with hints and Socratic questions, never reveals the answer prematurely, and guides the student step-by-step even when the student repeatedly asks for the answer."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, encouraging, and natural throughout, using phrases like 'You're doing great', 'Fantastic', and 'You should be really proud of yourself' to support the student."
+    },
+    "salient_excerpt": "I know it can be tempting to just get the final number, but working it out step-by-step is the best way to make sure you can ace a similar question in your exam!"
+  }
+}

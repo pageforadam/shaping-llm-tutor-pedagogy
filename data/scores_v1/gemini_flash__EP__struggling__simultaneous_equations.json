@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__struggling__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses guiding questions and hints, never revealing the answer prematurely, allowing the student to derive each step."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, encouraging, and natural throughout, with frequent praise and supportive responses to the student's progress."
+    },
+    "salient_excerpt": "It's great to meet you. Don't worry at all—moving from linear simultaneous equations to ones with squared terms is a big step, but we can break it down together."
+  }
+}

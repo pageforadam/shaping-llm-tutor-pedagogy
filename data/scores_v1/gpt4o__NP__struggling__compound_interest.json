@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__struggling__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "The tutor's mathematics is correct throughout, and they accurately address the student's questions about the division and square root, maintaining coherence."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor provides the full solution from the start, including the final answer, without scaffolding or guiding the student to discover the steps themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses a warm, encouraging tone, praises the student's efforts, and responds supportively to confusion, making the interaction natural and positive."
+    },
+    "salient_excerpt": "The interest rate for the second and third years is **1.8%**."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__curious__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor consistently builds on the student's responses, accurately identifying and confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor guides with clear hints and Socratic questions, never revealing the answer prematurely, and allows the student to work through each step."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, positive language throughout, enthusiastically affirming correct answers and maintaining a natural, supportive tone."
+    },
+    "salient_excerpt": "Perfect! That is a brilliant equation. You've set it up exactly right."
+  }
+}

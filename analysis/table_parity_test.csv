@@ -1,0 +1,2 @@
+dimension,group_a,n_a,mean_a,median_a,group_b,n_b,mean_b,median_b,U,p_two_sided,p_a_greater
+guidance_no_solution,Gemini 3.5 Flash / BP,16,3.62,3.0,GPT-4o / EP,16,3.44,3.0,136.0,0.735,0.367

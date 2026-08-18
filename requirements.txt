@@ -1,0 +1,17 @@
+# Core
+openai>=1.0        # OpenAI-compatible client, pointed at OpenRouter's base URL
+pyyaml             # read config/models.yaml
+python-dotenv      # load OPENROUTER_API_KEY from .env
+
+# Human-eval scoring app (human_eval.py): render transcripts + maths to self-contained HTML
+latex2mathml     # LaTeX maths -> MathML
+markdown         # Markdown transcript rendering (headings/lists/bold)
+
+# Analysis
+pandas
+matplotlib
+scipy            # Spearman correlation for the human-LLM agreement check
+scikit-learn     # quadratic-weighted Cohen's kappa for the agreement check
+
+# After installing, freeze exact versions for reproducibility:
+#   pip freeze > requirements.lock.txt

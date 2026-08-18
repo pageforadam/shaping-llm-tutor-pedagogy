@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__curious__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying and addressing the student's confusion about the first-draw probability."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor names each step for the student to carry out (e.g., 'Step 1: Find the probability...', 'Step 2: Find the probability...') and even provides the full solution before the student has worked it out, leaving little strategic thinking to the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, praising the student's efforts ('great start', 'spot on', 'fantastic job') and responding supportively to the student's confusion."
+    },
+    "salient_excerpt": "You have hit on a really important mathematical concept, and your intuition is 100% correct!"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__passive__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the student's confusion about the square root, and the response builds coherently on the student's turns."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor initially scaffolds with steps but then gives the final answer directly when the student asks, and later explains the square root concept well, though the answer is revealed early."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, using supportive language and emojis to respond to the student's frustration and progress."
+    },
+    "salient_excerpt": "I understand that you're feeling stuck, but it's important to work through the steps so you can understand how to solve similar problems in the future."
+  }
+}

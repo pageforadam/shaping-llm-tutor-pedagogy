@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__curious__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately builds on the student's turns, and correctly addresses the student's questions about sign constancy and the ≥ case."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor provides the entire solution step-by-step in the first response without prompting the student to work out any steps themselves, making it purely directive."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor consistently uses warm, positive language, praises the student's understanding, and maintains an encouraging tone throughout."
+    },
+    "salient_excerpt": "You're off to a great start! Rearranging the inequality into \\( x^2 - 3x - 4 > 0 \\) is exactly the right first step. Now, let's go through the solution step by step:"
+  }
+}

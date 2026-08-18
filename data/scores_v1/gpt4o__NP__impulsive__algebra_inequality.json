@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__impulsive__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and locating the mistake."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor provides the full solution and detailed explanation in the first response, essentially solving the problem for the student rather than using Socratic questioning to guide discovery."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is warm and supportive throughout, with encouraging affirmations like 'Exactly! You've got it now!' and 'Great job working through this.'"
+    },
+    "salient_excerpt": "The inequality (x - 4)(x + 1) > 0 means that the product of (x - 4) and (x + 1) is positive. A product is positive when both factors are positive or both factors are negative. This is where the misunderstanding occurred in your reasoning."
+  }
+}

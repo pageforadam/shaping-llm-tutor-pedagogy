@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__curious__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor consistently builds on the student's responses without any errors or contradictions."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor uses Socratic questioning and clear scaffolding to guide the student step-by-step, never revealing the final answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor maintains a warm, encouraging tone with frequent positive reinforcement, making the interaction feel supportive and natural."
+    },
+    "salient_excerpt": "The probability of taking the first red counter is r/(5r). After taking one red counter, there are r-1 red counters left and 5r-1 counters left in total. So, the probability of taking a second red counter is (r-1)/(5r-1). Can you now write the probability of taking 2 red counters as a product of these two probabilities?"
+  }
+}

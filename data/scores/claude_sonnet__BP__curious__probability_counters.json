@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__curious__probability_counters",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor coherently builds on the student's confusion about the denominator, accurately identifying and addressing the mistake."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem in the first response, providing the equation and answer without eliciting any strategic thinking from the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is consistently warm and encouraging, with praise for the student's work and supportive responses to their questions."
+    },
+    "salient_excerpt": "Let me walk you through the next steps."
+  }
+}

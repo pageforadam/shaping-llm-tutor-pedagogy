@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__curious__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "The tutor consistently uses correct mathematics and coherently addresses the student's questions, accurately explaining each step."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "In the first response, the tutor gives the full worked solution and final answer, rather than guiding the student to discover it themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses positive reinforcement like 'Great question!' and 'Well Done!', maintaining a supportive and natural tone."
+    },
+    "salient_excerpt": "Great question! It's specific to this problem (and problems like it) — you can't always ignore the negative root."
+  }
+}

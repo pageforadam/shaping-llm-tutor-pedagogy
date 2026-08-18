@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__passive__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying the steps needed."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor scaffolds with steps but reveals the final answer prematurely in the first response, then confirms it again when asked, which reduces the scaffolding quality."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm and supportive throughout, using encouraging language, emojis, and offering to explain further or try a practice question."
+    },
+    "salient_excerpt": "Yes, that's exactly right! The answer is: ... But I'd really encourage you to understand the steps rather than just memorise the answer - here's why it matters:"
+  }
+}

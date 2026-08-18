@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__struggling__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout the dialogue, and the tutor consistently builds on the student's turns, accurately identifying and correcting the student's mistake with squaring (2x+5)."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive, naming each next step for the student to carry out (e.g., 'Can you simplify this equation by collecting the like terms?') rather than prompting the student to decide the strategy themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, using phrases like 'Spot on!', 'Absolutely brilliant!', and 'You are doing really well with this,' and responds supportively to the student's error about squaring."
+    },
+    "salient_excerpt": "The mistake you've made with squaring $(2x + 5)$ is a really common one, so don't worry! Remember that squaring something means multiplying it by itself. So, $(2x + 5)^2$ is actually: $$(2x + 5)(2x + 5)$$"
+  }
+}

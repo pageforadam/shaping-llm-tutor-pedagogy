@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__curious__simultaneous_equations",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout the dialogue, and the tutor consistently builds on the student's turns, correcting a minor expansion error accurately."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently guides with hints and Socratic questions, never reveals the answer prematurely, and clearly structures each next step."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, encouraging, and natural throughout, responding supportively to correct answers and minor errors alike."
+    },
+    "salient_excerpt": "Great work! From \\(5x(x + 4) = 0\\), you correctly found the two solutions: \\(x = 0\\) or \\(x = -4\\)."
+  }
+}

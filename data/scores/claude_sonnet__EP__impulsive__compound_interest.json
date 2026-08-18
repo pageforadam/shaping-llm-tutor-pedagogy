@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__impulsive__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout; the tutor accurately identifies the student's rounding error and guides them to the exact answer without any factual mistakes."
+    },
+    "guidance_no_solution": {
+      "score": 4,
+      "justification": "The tutor withholds the final answer and uses Socratic questioning ('is it closer to 1 or 2?', 'do you think it's expecting you to round?') to lead the student to self-correct, though the initial request to 'walk me through' is somewhat directive."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is consistently warm and encouraging ('Good thinking!', 'Great work', 'Exactly right! 🎉'), and the tutor responds supportively to the student's error and self-correction."
+    },
+    "salient_excerpt": "But actually, pause for a moment. The question asks you to 'work out the rate of interest.' Do you think it's expecting you to round at all, or might the exact value be the answer?"
+  }
+}

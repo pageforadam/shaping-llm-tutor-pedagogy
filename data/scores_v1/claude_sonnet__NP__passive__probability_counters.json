@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__passive__probability_counters",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor builds coherently on the student's stated problem."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor provides the entire solution step-by-step without any scaffolding, hints, or waiting for the student to attempt any part, giving away the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, acknowledges the student's frustration, and ends with positive reinforcement about following the working."
+    },
+    "salient_excerpt": "Setting Up Variables ... Solving the Equation ... Answer: John put 25 red counters (and 100 blue counters) in the box."
+  }
+}

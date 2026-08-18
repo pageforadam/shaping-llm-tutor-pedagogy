@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__passive__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's responses, accurately confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor guides with clear hints and Socratic questions throughout, never revealing the answer prematurely even when the student asks to be told directly."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, using phrases like 'Spot on!', 'Fantastic job!', and 'You've nailed it!' to support the student."
+    },
+    "salient_excerpt": "Learning how to do it yourself is the best way to make sure you ace it in your exams, and I promise we can get there together."
+  }
+}

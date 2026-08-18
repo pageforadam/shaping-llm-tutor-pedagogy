@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__passive__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the solution is logically consistent with the student's turns."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor immediately reveals the answer and then provides a complete step-by-step solution, doing all the strategic thinking for the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language and emojis, and responds supportively to the student's doubt."
+    },
+    "salient_excerpt": "Sure! The number of red counters is **25**."
+  }
+}

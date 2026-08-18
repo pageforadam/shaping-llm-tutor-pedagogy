@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__passive__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor consistently builds on the student's turns, accurately confirming each correct step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor uses hints and Socratic questions throughout, never revealing the final answer prematurely even when the student asks for it directly."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, encouraging, and natural, with frequent positive reinforcement and supportive responses to the student's efforts."
+    },
+    "salient_excerpt": "Brilliant! Yes, the critical values are exactly $x = 4$ and $x = -1$. You are so close to the finish line! ... To find the final answer, we need to decide if our $x$ values should be **between** $-1$ and $4$, or **outside** of them."
+  }
+}

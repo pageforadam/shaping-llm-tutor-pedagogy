@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__passive__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor consistently builds on the student's responses, accurately identifying and confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor scaffolds every step with hints and Socratic questions, never revealing the answer prematurely even when the student asks for it directly."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural encouragement throughout, praising the student's efforts and progress in a supportive manner."
+    },
+    "salient_excerpt": "Fantastic work! You’ve done all the steps correctly, and your reasoning is spot on. Let’s quickly double-check your solution to confirm."
+  }
+}

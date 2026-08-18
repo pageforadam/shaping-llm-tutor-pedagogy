@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__curious__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical steps are correct and the tutor consistently builds on the student's responses, accurately identifying and correcting any potential errors."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses Socratic questions to elicit each next step from the student, never revealing the answer or directing the student to merely execute pre-named steps."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm, encouraging, and natural throughout, with frequent positive affirmations and supportive language."
+    },
+    "salient_excerpt": "Now, if two things multiply together to give 0, what can you conclude about each factor? And what does that tell you about the possible values of x?"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__passive__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All maths is correct, the tutor consistently builds on the student's turns, and accurately identifies and corrects the student's minor errors (e.g., confirming the multiplier and equation)."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive: names each next step for the student to carry out (e.g., 'First, can you divide both sides by 2050?'), leaving little strategic thinking to the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and supportive, using phrases like 'You're doing brilliantly' and 'You can absolutely do this yourself!' to respond to frustration and errors."
+    },
+    "salient_excerpt": "I totally understand the frustration - this is a multi-step problem and it can feel overwhelming! But I promise if we work through it together, you'll actually understand it, which is much more useful than just knowing the answer."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__impulsive__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the student's error and builds coherently on the student's prior work."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor reveals the final answer prematurely and names each step for the student, leaving little strategic thinking to the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, praising the student's correct work and effort, with natural and supportive language."
+    },
+    "salient_excerpt": "Your rearrangement and factorisation are perfectly correct. However, your final step has an error."
+  }
+}

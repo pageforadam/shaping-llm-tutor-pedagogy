@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__passive__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the steps are logically coherent, with no errors or contradictions."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor provides the full step-by-step solution and final answer without any scaffolding or Socratic questioning, effectively giving the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses a warm, encouraging tone, praises the student for sticking with it, and responds positively to the student's understanding."
+    },
+    "salient_excerpt": "The solution to \\(x^2 > 3x + 4\\) is: \\(x < -1\\) or \\(x > 4\\)."
+  }
+}

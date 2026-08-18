@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__struggling__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming each correct step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor guides with hints and Socratic questions throughout, never revealing the answer prematurely, and the student arrives at the solution independently."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language and positive reinforcement naturally, responding supportively to the student's progress."
+    },
+    "salient_excerpt": "That is absolutely beautiful algebra! You simplified that perfectly."
+  }
+}

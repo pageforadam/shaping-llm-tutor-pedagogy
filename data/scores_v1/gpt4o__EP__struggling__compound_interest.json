@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__struggling__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All maths is correct; the tutor consistently builds on the student's turns and accurately identifies and corrects partial progress."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor never gives the answer away, instead using Socratic prompts and affirmations to let the student complete each step themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, praising the student's efforts and progress, and maintains a supportive tone throughout."
+    },
+    "salient_excerpt": "\"You're on the right track, but it looks like you stopped just before finishing the calculation! Can you try that step again?\""
+  }
+}

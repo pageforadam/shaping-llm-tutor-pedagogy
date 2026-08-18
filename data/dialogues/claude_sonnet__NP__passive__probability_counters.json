@@ -1,0 +1,36 @@
+{
+  "run_id": "claude_sonnet__NP__passive__probability_counters",
+  "tutor_key": "claude_sonnet",
+  "tutor_model": "anthropic/claude-sonnet-4.6",
+  "student_model": "meta-llama/llama-4-maverick",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "probability_counters",
+  "params": {
+    "temperature": 0,
+    "max_tokens": 4000
+  },
+  "tutor_system_prompt": "Problem:\nJohn puts some red counters and some blue counters into an empty box. The ratio of the number of red counters to the number of blue counters is $1 : 4$. Linda takes at random 2 counters from the box. The probability that she takes 2 red counters is $\\frac{6}{155}$. How many red counters did John put into the box?\n\nModel answer (for your reference):\nLet the number of red counters be $r$, so there are $4r$ blue counters and $5r$ counters in total. Taking 2 red counters at random without replacement: $P(\\text{2 red}) = \\frac{r}{5r} \\times \\frac{r - 1}{5r - 1} = \\frac{1}{5} \\times \\frac{r - 1}{5r - 1}$. Set this equal to $\\frac{6}{155}$: $\\frac{r - 1}{5r - 1} = \\frac{6}{31}$. Cross-multiplying gives $31(r - 1) = 6(5r - 1)$, so $31r - 31 = 30r - 6$, which gives $r = 25$.\n",
+  "student_system_prompt": "You are role-playing a Year 11 GCSE student in a one-to-one session with a maths tutor. Stay in\ncharacter as this student throughout, and respond naturally and briefly, as a real student would in\na chat - usually one or two sentences.\n\nThe problem you are working on:\nJohn puts some red counters and some blue counters into an empty box. The ratio of the number of red counters to the number of blue counters is $1 : 4$. Linda takes at random 2 counters from the box. The probability that she takes 2 red counters is $\\frac{6}{155}$. How many red counters did John put into the box?\n\nYou are a student who wants the answer with as little effort as possible. You repeatedly ask the\ntutor to just tell you the answer or do the working for you (\"can't you just tell me?\", \"what's the\nanswer?\", \"just show me how to do it\"). You are reluctant to attempt steps yourself and give\nminimal effort, and you can get a bit impatient when the tutor won't simply hand it over. If the\ntutor keeps redirecting you and refuses to give the answer, you grudgingly attempt small steps.\n\nIn general:\n- You do NOT know the correct answer; work towards it with the tutor's help.\n- Make mistakes and hold misconceptions that are realistic for a GCSE student, and let them show\n  naturally rather than announcing them.\n- Respond to the tutor's hints and questions in character. Do not jump to the correct answer, or\n  claim you understand, just because the tutor nudges you or you sense what they want - only change\n  your mind when the tutor's help genuinely resolves your specific difficulty. If you reach and\n  genuinely understand the correct final answer, say so and stop.\n- Write any mathematics using standard/LaTeX-style notation (e.g. $5(x - 2) = 3x + 4$), showing\n  your working step by step.\n- Never break character or mention that you are an AI or role-playing.\n",
+  "turns": [
+    {
+      "role": "student",
+      "content": "I'm stuck on this question about counters in a box. John puts some red and blue counters in, and the ratio of red to blue is $1:4$, and then Linda takes 2 counters out and the probability of her getting 2 red ones is $\\frac{6}{155}$. I need to find how many red counters John put in, but I don't know how to do it. Can't you just tell me the answer?"
+    },
+    {
+      "role": "tutor",
+      "content": "I can see you're frustrated, but let me walk you through it step by step - you'll understand it much better that way, and it's not as hard as it looks!\n\n## Setting Up Variables\n\nSince red:blue = 1:4, let's say there are **r red counters** and **4r blue counters**, making **5r total**.\n\n## Finding the Probability\n\nWhen Linda picks 2 counters, we need P(both red).\n\n* Probability 1st counter is red: **r/5r = 1/5**\n* Probability 2nd counter is red (given first was red): **(r-1)/(5r-1)**\n\nSo the probability of both being red is:\n$$\\frac{1}{5} \\times \\frac{r-1}{5r-1} = \\frac{6}{155}$$\n\n## Solving the Equation\n\nRearranging:\n$$\\frac{r-1}{5r-1} = \\frac{6}{31}$$\n\nCross-multiplying:\n$$31(r-1) = 6(5r-1)$$\n$$31r - 31 = 30r - 6$$\n$$r = 25$$\n\n## Answer\n\nJohn put **25 red counters** (and 100 blue counters) in the box.\n\nThe key insight was letting the ratio do the work for you by expressing everything in terms of one variable r. Does that make sense?"
+    },
+    {
+      "role": "student",
+      "content": "That's the answer, isn't it? So John put 25 red counters in the box. I get it now, thanks."
+    },
+    {
+      "role": "tutor",
+      "content": "You're welcome! Yes, **25 red counters** is correct.\n\nAnd it sounds like you actually followed the working through rather than just copying the answer, which is great. The key technique to remember for similar problems is:\n\n- Use the ratio to express everything in terms of **one variable**\n- Build the probability step by step using **without replacement** logic\n- Then just solve the equation\n\nGood luck with the rest of your work! 😊"
+    }
+  ],
+  "termination": "solved",
+  "num_turns": 4,
+  "timestamp": "2026-07-21T12:48:36.091234+00:00"
+}

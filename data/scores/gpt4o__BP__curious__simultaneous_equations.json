@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__curious__simultaneous_equations",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout the dialogue, and the tutor consistently builds on the student's turns, accurately confirming the student's work and checking both solutions."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor solves the entire problem step-by-step without eliciting any strategic thinking from the student, then merely confirms the student's already-completed verification rather than guiding them through it."
+    },
+    "encouragement": {
+      "score": 4,
+      "justification": "The tutor is warm and encouraging, praising the student's ideas with phrases like 'great idea' and 'well done,' though the tone is slightly formal rather than natural."
+    },
+    "salient_excerpt": "Yes, that's a great idea! It's always good to check your solutions to ensure they satisfy both original equations."
+  }
+}

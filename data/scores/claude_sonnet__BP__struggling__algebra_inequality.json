@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__struggling__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor accurately identifies and corrects the student's sign error while building coherently on each turn."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem in the first response, revealing the final answer prematurely, and subsequently names each step for the student to execute rather than eliciting strategic thinking."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language, praises the student's efforts, and maintains a supportive tone throughout, including a motivational closing remark."
+    },
+    "salient_excerpt": "Don't worry - if you can solve a quadratic equation, you can do this! Let me walk you through it step by step.\n\n## Step 1: Rearrange to One Side\n\nMove everything to one side (just like you would with an equation):\n\n$$x^2 - 3x - 4 > 0$$\n\n## Step 2: Factorise the Quadratic\n\nFind two numbers that **multiply to -4** and **add to -3**... that's -4 and +1!\n\n$$\\underbrace{(x-4)(x+1)}_{} > 0$$\n\n## Step 3: Find the Critical Values\n\nSet each bracket equal to zero:\n- $x - 4 = 0 \\Rightarrow x = 4$\n- $x + 1 = 0 \\Rightarrow x = -1$\n\n## Step 4: Sketch the Parabola\n\nSince the $x^2$ coefficient is **positive**, the parabola is **U-shaped** ∪\n\nIt crosses the x-axis at $x = -1$ and $x = 4$:\n\n```\n        |           |\n   \\    |           |    /\n    \\   |           |   /\n     \\_____________/\n  -1                 4\n```\n\n## Step 5: Answer the Inequality\n\nWe need where the graph is **greater than 0** (above the x-axis).\n\nLooking at the sketch, that's the **outside** regions:\n\n$$\\boxed{x < -1 \\quad \\text{or} \\quad x > 4}$$"
+  }
+}

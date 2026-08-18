@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__curious__probability_counters",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and confirming each correct step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out each next step themselves through Socratic questions, never revealing the answer or naming steps to execute."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout, celebrating correct responses and maintaining a natural, supportive tone."
+    },
+    "salient_excerpt": "Now, here's the key bit — after Linda has taken one red counter out, the box has changed. How many red counters are left, and how many total counters are left? And so what's the probability that her second counter is also red?"
+  }
+}

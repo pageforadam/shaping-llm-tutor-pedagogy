@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__struggling__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "The tutor's mathematics is entirely correct throughout, and each response logically builds on the student's previous turn, accurately confirming correct steps and identifying the point where the student was stuck."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and gets the student to do calculations, but the approach is directive—naming each next step (divide, square root, subtract, multiply) for the student to execute rather than eliciting the strategy from the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, using phrases like 'Great Progress!', 'Perfect — That's Completely Correct!', emojis, and a celebratory tone, responding supportively throughout."
+    },
+    "salient_excerpt": "\"Your division is spot on — 1.03632 is correct ✓\""
+  }
+}

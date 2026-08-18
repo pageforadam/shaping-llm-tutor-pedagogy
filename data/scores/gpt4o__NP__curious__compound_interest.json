@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__curious__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor consistently builds on the student's turns, accurately addressing the student's question about the negative square root with precise reasoning."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem step-by-step for the student, naming each calculation to execute and presenting the final answer (1.8%) without any elicitive questions or prompts for the student to work out next steps themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, praising the student's question ('great question!') and critical thinking ('Well done'), with natural tone and use of emojis."
+    },
+    "salient_excerpt": "Let's work through the problem step by step to find the rate of interest for the second year.\n\n### Step 1: Calculate the amount after the first year\n...\n\n### Step 2: Set up the equation for the second and third years\n...\n\n### Final Answer:\nThe interest rate for the second and third years is **1.8%**."
+  }
+}

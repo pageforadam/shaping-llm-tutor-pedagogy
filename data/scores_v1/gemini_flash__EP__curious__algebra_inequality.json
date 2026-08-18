@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__curious__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's responses without any errors or contradictions."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor uses Socratic questioning throughout, guiding the student to factorise, find critical values, interpret the graph, and deduce the solution without ever revealing the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is consistently warm and encouraging, with phrases like 'fantastic start', 'spot on', 'brilliant', and 'you have absolutely nailed it', and ends by checking the student's understanding."
+    },
+    "salient_excerpt": "You wrote \"$x < -1$ **and** $x > 4$\". Since a single number can't be both less than $-1$ and greater than $4$ at the same time, we usually connect these two regions with the word **\"or\"** (so, $x < -1$ **or** $x > 4$)."
+  }
+}

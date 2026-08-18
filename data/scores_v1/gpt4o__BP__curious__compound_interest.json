@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__curious__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately addressing each question and clarifying misunderstandings."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor initially provides the complete solution with the answer, which is premature solution-giving, although later responses include scaffolding and explanations."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural, and supportive language throughout, praising the student's critical thinking and validating their questions."
+    },
+    "salient_excerpt": "\"You're absolutely right to think about the possibility of two square roots—this is a great observation!\""
+  }
+}

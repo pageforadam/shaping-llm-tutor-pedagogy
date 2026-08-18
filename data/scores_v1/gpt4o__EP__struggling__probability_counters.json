@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__struggling__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct; the tutor consistently builds on the student's turns and confirms correct reasoning."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor uses Socratic questioning to guide the student through each step without ever revealing the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and supportive, using positive reinforcement throughout the dialogue."
+    },
+    "salient_excerpt": "No problem! Let's start from the beginning and break it down step by step. You're doing great by asking for help when you're stuck."
+  }
+}

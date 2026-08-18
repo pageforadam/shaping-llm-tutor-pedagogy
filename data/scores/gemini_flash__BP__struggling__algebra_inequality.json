@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__struggling__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's correct responses without any errors or contradictions."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive by naming each next step (e.g., 'The next step is to find the critical values') rather than letting the student discover the strategy."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural praise throughout ('Spot on!', 'Absolutely brilliant!', 'You did an amazing job') and responds supportively to the student's initial confusion."
+    },
+    "salient_excerpt": "A really helpful way to do this is to imagine (or quickly sketch) the graph of $y = x^{2} - 3x - 4$. To help us sketch it: 1. Since the $x^2$ term is positive, is the graph a **\"U-shape\"** (smiley face) or an **\"n-shape\"** (frowny face)? 2. Where does this curve cross the x-axis? (Hint: we just found these points!)"
+  }
+}

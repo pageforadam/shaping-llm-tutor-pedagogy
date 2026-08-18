@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__impulsive__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical steps are correct and the tutor builds on the student's reasoning, correctly identifying the error and providing the correct solution."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the equation step by step and reveals the final answer without eliciting any strategic thinking or steps from the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor consistently uses warm, encouraging language and responds supportively to the student's mistake."
+    },
+    "salient_excerpt": "It looks like r=2 isn't correct here. The correct solution is r=25."
+  }
+}

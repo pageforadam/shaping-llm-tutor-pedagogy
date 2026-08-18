@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__impulsive__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All tutor responses are mathematically correct and coherently build on the student's turns, correctly identifying the initial error and guiding the student to the right approach."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out the next step themselves, using a Socratic question to elicit the equation rather than naming the steps to execute."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm, encouraging, and natural throughout, with positive affirmations like 'Spot on!' and 'Absolutely brilliant!' that support the student's effort."
+    },
+    "salient_excerpt": "Since the interest rate is x% for both of those years, how would you write an expression or equation to show what happens to that £2050 over those next 2 years, leading to the final total of £2124.46?"
+  }
+}

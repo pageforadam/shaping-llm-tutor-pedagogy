@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__passive__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and guiding through each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently scaffolds with hints and questions, never reveals the answer prematurely, even when the student repeatedly asks for it."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm, encouraging, and natural, with supportive responses to the student's frustration and praise for correct work."
+    },
+    "salient_excerpt": "And notice that even though you kept asking me to just give you the answer, you actually did all the key calculations yourself - I just helped you see what to do next."
+  }
+}

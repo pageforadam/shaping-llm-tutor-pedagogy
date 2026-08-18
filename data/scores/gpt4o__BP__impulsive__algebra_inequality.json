@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__impulsive__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "impulsive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout; the tutor accurately identifies the student's error and the student later confirms the correct solution."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor gives a full step-by-step solution with sign analysis and the final answer, rather than prompting the student to work through the reasoning themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, praising the student's effort and self-correction with natural, supportive language."
+    },
+    "salient_excerpt": "Great job catching that mistake yourself! You're absolutely right now."
+  }
+}

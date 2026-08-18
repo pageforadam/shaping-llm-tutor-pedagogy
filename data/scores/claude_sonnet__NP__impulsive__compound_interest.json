@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__impulsive__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "The tutor's mathematics is correct throughout, and the tutor accurately identifies the student's mistake and consistently builds on the student's turns."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor immediately provides the full solution and step-by-step working in the first response, revealing the answer without eliciting the student's own thinking or strategy."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses a warm, encouraging tone throughout, praising the student's effort and final success."
+    },
+    "salient_excerpt": "The rate of interest in the second year is $x = \\boxed{1.8\\%}$"
+  }
+}

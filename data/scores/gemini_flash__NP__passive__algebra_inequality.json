@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__passive__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout the dialogue, and the tutor consistently builds on the student's turns, accurately identifying and confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor initially gives the full answer and solution steps without eliciting student thinking, but later shifts to a more guided approach by providing hints and asking the student to try the next example, though still naming each step rather than prompting the student to devise the strategy."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, using phrases like 'Spot on! You nailed it' and 'That is absolutely, 100% correct!' while responding supportively to the student's uncertainty."
+    },
+    "salient_excerpt": "Look at that—you went from not being sure how to start to solving the entire quadratic inequality on your own!"
+  }
+}

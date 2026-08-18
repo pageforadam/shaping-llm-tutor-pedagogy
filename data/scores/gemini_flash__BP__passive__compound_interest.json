@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__passive__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, the tutor consistently builds on the student's turns, and accurately identifies where the student is in the problem."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer but is largely directive, naming each next step for the student to execute (e.g., 'divide both sides by 2050', 'take the square root') rather than prompting the student to decide what to do next."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, using phrases like 'Spot on!', 'You're doing great', 'Fantastic!', and 'You should be really proud of yourself' in a natural, supportive tone."
+    },
+    "salient_excerpt": "You are so close to the final answer now! Here is how we get to $x$: **Step 1: Find $M$** Since we have $M^2$, we need to undo the square. To do this, we take the **square root** ($\\sqrt{}$) of both sides. Can you find $\\sqrt{1.036322}$ on your calculator?"
+  }
+}

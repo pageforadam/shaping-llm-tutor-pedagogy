@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__curious__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical steps are correct and the tutor consistently builds on the student's responses, accurately confirming correct work and identifying progression."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently scaffolds through Socratic questioning and explicit next steps (e.g., 'Can you rearrange?', 'What do you get when you expand?'), without ever revealing the final answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural, and supportive language throughout (e.g., 'Spot on!', 'Fantastic job!', 'You did an amazing job'), responding positively to each correct student step."
+    },
+    "salient_excerpt": "It is completely normal to get stuck here! When you have one equation with squares (a quadratic equation) and one without (a linear equation), the best method to use is **substitution**."
+  }
+}

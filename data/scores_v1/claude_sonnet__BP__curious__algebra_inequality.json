@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__curious__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the student's correct rearrangement and factorisation, and builds coherently on the student's follow-up question about sign constancy within regions."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor scaffolds the factorisation step with a hint, but then provides the complete table and final solution without waiting for the student to work through the sign analysis."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, using praise ('great start', 'exactly right'), emojis, and a supportive tone, especially when responding to the student's insightful question."
+    },
+    "salient_excerpt": "Really great question - this shows you're thinking deeply about the maths! 🌟"
+  }
+}

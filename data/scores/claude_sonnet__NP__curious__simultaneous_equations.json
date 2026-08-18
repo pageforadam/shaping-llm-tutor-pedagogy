@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__curious__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor accurately addresses the student's follow-up question about dividing by x."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor gives the entire solution in the first response, revealing the final answer without scaffolding or eliciting student input."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses a warm, supportive tone, praises the student's understanding, and frames the division by x as a common mistake to learn from."
+    },
+    "salient_excerpt": "The key strategy is to use the linear equation to express one variable in terms of the other, then substitute into the quadratic."
+  }
+}

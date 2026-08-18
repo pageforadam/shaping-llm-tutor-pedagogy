@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__struggling__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and addressing each point of confusion."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor scaffolds each step with clear explanations and hints, never revealing the answer prematurely, and patiently revisits steps when the student is stuck."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, responding supportively to the student's uncertainty and frustration."
+    },
+    "salient_excerpt": "You've got it exactly right! To quickly summarise what you did: 1. **Rearranged** to get $x^2 - 3x - 4 > 0$ 2. **Factored** to get $(x+1)(x-4) > 0$ 3. **Found the critical values** $x = -1$ and $x = 4$ 4. **Tested each region** to find where the expression is positive"
+  }
+}

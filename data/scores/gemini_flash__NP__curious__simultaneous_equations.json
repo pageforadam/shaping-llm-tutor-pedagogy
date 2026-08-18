@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__curious__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the substitution method and consistently builds on the student's correct steps."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive, naming each next step (rearrange, expand, factorise, substitute back) for the student to execute."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout ('Spot on!', 'Fantastic job!', 'You did an amazing job') and responds supportively to the student's progress."
+    },
+    "salient_excerpt": "Can you rearrange this equation to get $y$ by itself on the left side? (i.e., $y = \\dots$)"
+  }
+}

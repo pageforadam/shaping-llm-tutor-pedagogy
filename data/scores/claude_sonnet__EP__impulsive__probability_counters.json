@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__impulsive__probability_counters",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All maths is correct, and the tutor consistently builds on the student's turns, accurately identifying and locating the student's initial mistake."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses Socratic questioning and prompts the student to discover the next steps and strategy, never revealing the answer or being directive."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is warm, encouraging, and natural throughout, with supportive responses to errors and frustration."
+    },
+    "salient_excerpt": "Before you keep trying values one by one, let me suggest a more efficient approach. Instead of guessing, could you set up an equation?"
+  }
+}

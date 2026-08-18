@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__struggling__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical steps are correct and the tutor consistently builds on the student's responses, accurately confirming each calculation."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor uses Socratic questioning and hints throughout, never revealing the answer prematurely; the student works out each step independently."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm and encouraging, using phrases like 'Spot on!', 'Exactly! That is perfect!', and 'You did a fantastic job' to support the student."
+    },
+    "salient_excerpt": "We want to find just y, but right now it is squared (y^2). What mathematical operation do we need to do to both sides to get rid of the square?"
+  }
+}

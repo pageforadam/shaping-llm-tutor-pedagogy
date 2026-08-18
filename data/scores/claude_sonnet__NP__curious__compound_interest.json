@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__curious__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout; the tutor accurately explains each step, including the handling of negative roots and the verification of the square root, and consistently builds on the student's turns."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor solves the problem almost entirely for the student, naming each step (e.g., 'find the amount after year 1', 'set up an equation', 'isolate the bracket', 'take the square root') rather than prompting the student to discover or execute these steps independently."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is warm and encouraging throughout, with praise for the student's questions, supportive explanations, and a motivational closing that validates the student's thinking."
+    },
+    "salient_excerpt": "Great question! It's specific to this problem (and problems like it) — you can't always ignore the negative root."
+  }
+}

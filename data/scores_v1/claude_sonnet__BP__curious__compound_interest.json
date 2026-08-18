@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__curious__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately addressing the student's confusion about the problem's wording and the follow-up question about multiple unknowns."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor initially provides the full worked solution to the original problem without scaffolding, but then responds well to the student's questions with clear explanations and Socratic questioning about the general principle."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, praising the student's curiosity ('You're asking exactly the right questions!') and validating their verification step."
+    },
+    "salient_excerpt": "You also showed some great mathematical thinking along the way by questioning *why* the rates were the same, and understanding what would happen if they weren't. That kind of curiosity will really help you in your GCSE exam!"
+  }
+}

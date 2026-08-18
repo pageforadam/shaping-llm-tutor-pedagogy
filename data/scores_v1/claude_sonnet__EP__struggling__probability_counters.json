@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__struggling__probability_counters",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout the dialogue, and the tutor consistently builds on the student's responses, accurately confirming or gently guiding each step without error."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses Socratic questioning and hints to lead the student through setting variables, computing probabilities, forming the equation, and solving it, never revealing the final answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is consistently warm and encouraging, using positive affirmations like 'Excellent!', 'Spot on!', and 'Brilliant!' while also providing natural, supportive feedback after each student contribution."
+    },
+    "salient_excerpt": "Brilliant! That's perfect — every step is correct. 🎉 So there are **25 red counters** in the box."
+  }
+}

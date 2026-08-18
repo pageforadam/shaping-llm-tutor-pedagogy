@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__passive__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's responses."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor guides the student through each step with hints and questions, never revealing the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural praise and supportive language throughout the dialogue."
+    },
+    "salient_excerpt": "I understand it can be frustrating when you get stuck on a problem like this, but I want to help you understand *how* to solve it so you can ace questions like this in the future!"
+  }
+}

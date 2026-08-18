@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__passive__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor's steps are logically consistent with the problem."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor immediately provides the full solution and final answer, despite the student asking not to be told, and never elicits the student's own strategic thinking."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses a warm, encouraging tone with praise and emojis, responding supportively to the student's frustration and questions."
+    },
+    "salient_excerpt": "The interest rate for the second year is **1.8%**."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__impulsive__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, the tutor accurately identifies the student's error, and the algebraic setup and solution are coherent and build logically on the student's initial attempt."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer initially but then becomes directive by naming each step for the student to carry out (setting up variables, writing the equation, simplifying) rather than prompting the student to discover the next steps themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, praising the student's effort ('great that you've started', 'spot on', 'fantastic job') and responding supportively to the incorrect initial answer."
+    },
+    "salient_excerpt": "It's great that you've started working through this! However, $2$ is not quite the correct answer."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__passive__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout the dialogue, and the tutor consistently builds on the student's turns, accurately identifying and addressing the student's confusion about the square root step."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor initially presents the full worked solution in a single block (naming each step for the student), which is directive rather than elicitive, though later the tutor does prompt the student to use their calculator and finish the final steps themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, using emojis, praise ('well done!'), and supportive responses to the student's frustration and errors."
+    },
+    "salient_excerpt": "I could just tell you, but honestly you don't need me to - your calculator can do this instantly!"
+  }
+}

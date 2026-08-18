@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__curious__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive, naming each next step for the student to carry out (e.g., 'divide both sides by 2050', 'take the square root') rather than prompting the student to choose the strategy."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, using phrases like 'Perfect!', 'Well done!', 'You're doing great!', and ends with a supportive question about the student's confidence."
+    },
+    "salient_excerpt": "Now, let's focus on solving for x. We'll take it step by step. First, let's simplify the equation by dividing both sides by 2050."
+  }
+}

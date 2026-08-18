@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__curious__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor builds coherently on the student's turns, accurately addressing the student's questions."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor provides the entire solution step-by-step and gives the final answer without prompting the student to work out any steps themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language, praises the student's questions, and maintains a supportive tone throughout."
+    },
+    "salient_excerpt": "The rate of interest for the second and third years is: \n\n\\boxed{1.8\\%}"
+  }
+}

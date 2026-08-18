@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__curious__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout the dialogue, and the tutor consistently builds on the student's prior turns, accurately confirming each correct step."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive, naming each next step for the student to carry out (e.g., 'First, how would you get M^2 by itself?') rather than prompting the student to choose their own strategy."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging with natural praise like 'Spot on!', 'Exactly!', and 'You did a fantastic job,' creating a supportive tone throughout."
+    },
+    "salient_excerpt": "You've got it! That is absolutely correct. The interest rate for the second (and third) year is 1.8%."
+  }
+}

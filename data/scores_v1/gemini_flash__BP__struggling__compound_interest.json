@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__struggling__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming correct steps."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses hints and Socratic questions, never revealing the answer prematurely, and guides the student through each step."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, encouraging, and natural throughout, using phrases like 'Spot on!' and 'You are doing brilliantly' to support the student."
+    },
+    "salient_excerpt": "To find just M, we need to undo the square. What is the opposite of squaring a number? How can we find M from here?"
+  }
+}

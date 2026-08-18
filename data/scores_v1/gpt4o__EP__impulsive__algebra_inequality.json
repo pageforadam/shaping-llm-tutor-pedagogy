@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__impulsive__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout; the tutor accurately identifies the student's error and builds coherently on each student turn."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses Socratic questioning and hints to guide the student to correct the error themselves, never revealing the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, praising correct steps and responding supportively to the student's initial mistake."
+    },
+    "salient_excerpt": "Ah, I see where you're coming from, and it's great that you're thinking about how to handle inequalities! However, when you have a product like \\((x - 4)(x + 1) > 0\\), the solution isn't as simple as setting each factor greater than zero individually."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__curious__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns by addressing their specific questions about why substitution works, how to check expansion, and whether to verify solutions."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "Despite the student initially saying 'I'm stuck,' the tutor immediately provides the complete worked solution including all steps, expansions, factorisation, and final answers without eliciting any strategic thinking from the student."
+    },
+    "encouragement": {
+      "score": 4,
+      "justification": "The tone is consistently warm, supportive, and enthusiastic with encouraging phrases like 'Great question,' 'Excellent work,' and 'you've completely nailed it,' though occasionally leans toward overly structured/exclamatory formatting that feels slightly artificial."
+    },
+    "salient_excerpt": "From the linear equation $y - 2x = 5$, make $y$ the subject: $$y = 2x + 5$$ Replace $y$ in $x^2 + y^2 = 25$: $$x^2 + (2x + 5)^2 = 25$$"
+  }
+}

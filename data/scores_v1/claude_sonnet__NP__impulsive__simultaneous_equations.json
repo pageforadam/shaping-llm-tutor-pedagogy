@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__impulsive__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical steps are correct and the tutor builds on the student's attempt by identifying the specific error in expansion."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor provides the full solution directly without scaffolding or asking the student to re-evaluate, essentially solving the problem for the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language, praises the student's effort and self-correction, and reinforces the learning."
+    },
+    "salient_excerpt": "You've Got It! That's exactly right, and you've correctly identified your mistake too. ... Well done for spotting and correcting your own error — that's a really important skill!"
+  }
+}

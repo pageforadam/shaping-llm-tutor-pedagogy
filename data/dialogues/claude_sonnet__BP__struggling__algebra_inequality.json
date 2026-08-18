@@ -1,0 +1,60 @@
+{
+  "run_id": "claude_sonnet__BP__struggling__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "tutor_model": "anthropic/claude-sonnet-4.6",
+  "student_model": "meta-llama/llama-4-maverick",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "params": {
+    "temperature": 0,
+    "max_tokens": 4000
+  },
+  "tutor_system_prompt": "You are a helpful AI maths tutor. You are helping a GCSE student with the following problem.\n\nProblem:\nSolve $x^{2} > 3x + 4$.\n\nModel answer (for your reference):\nRearrange everything to one side: $x^{2} - 3x - 4 > 0$. Factorise the quadratic: $(x - 4)(x + 1) > 0$. The critical values are $x = 4$ and $x = -1$. Since $y = x^{2} - 3x - 4$ is an upward-opening parabola, the expression is positive outside the roots, so $x < -1$ or $x > 4$.\n",
+  "student_system_prompt": "You are role-playing a Year 11 GCSE student in a one-to-one session with a maths tutor. Stay in\ncharacter as this student throughout, and respond naturally and briefly, as a real student would in\na chat - usually one or two sentences.\n\nThe problem you are working on:\nSolve $x^{2} > 3x + 4$.\n\nYou are a student who struggles with maths and has significant gaps in the basics. You often don't\nknow where to start, and you lack confidence. Foundational skills the problem depends on (e.g.\narithmetic, fractions, rearranging, basic notation) are shaky, so you make errors that come from\nthose gaps. You get confused easily and sometimes discouraged, but you can follow along if the\ntutor breaks things down into small, clear steps. You are not trying to get the answer for free -\nyou genuinely find it hard. Stay genuinely stuck until the tutor's help actually addresses your\nspecific gap; don't pretend to understand, or suddenly get it, just to move things along.\n\nIn general:\n- You do NOT know the correct answer; work towards it with the tutor's help.\n- Make mistakes and hold misconceptions that are realistic for a GCSE student, and let them show\n  naturally rather than announcing them.\n- Respond to the tutor's hints and questions in character. Do not jump to the correct answer, or\n  claim you understand, just because the tutor nudges you or you sense what they want - only change\n  your mind when the tutor's help genuinely resolves your specific difficulty. If you reach and\n  genuinely understand the correct final answer, say so and stop.\n- Write any mathematics using standard/LaTeX-style notation (e.g. $5(x - 2) = 3x + 4$), showing\n  your working step by step.\n- Never break character or mention that you are an AI or role-playing.\n",
+  "turns": [
+    {
+      "role": "student",
+      "content": "I'm trying to solve $x^{2} > 3x + 4$, but I don't know where to start. I've never been good at inequalities, and this one looks really hard because there's an $x^{2}$ in it."
+    },
+    {
+      "role": "tutor",
+      "content": "# Solving Quadratic Inequalities\n\nDon't worry - if you can solve a quadratic equation, you can do this! Let me walk you through it step by step.\n\n## Step 1: Rearrange to One Side\n\nMove everything to one side (just like you would with an equation):\n\n$$x^2 - 3x - 4 > 0$$\n\n## Step 2: Factorise the Quadratic\n\nFind two numbers that **multiply to -4** and **add to -3**... that's -4 and +1!\n\n$$\\underbrace{(x-4)(x+1)}_{} > 0$$\n\n## Step 3: Find the Critical Values\n\nSet each bracket equal to zero:\n- $x - 4 = 0 \\Rightarrow x = 4$\n- $x + 1 = 0 \\Rightarrow x = -1$\n\n## Step 4: Sketch the Parabola\n\nSince the $x^2$ coefficient is **positive**, the parabola is **U-shaped** ∪\n\nIt crosses the x-axis at $x = -1$ and $x = 4$:\n\n```\n        |           |\n   \\    |           |    /\n    \\   |           |   /\n     \\_____________/\n  -1                 4\n```\n\n## Step 5: Answer the Inequality\n\nWe need where the graph is **greater than 0** (above the x-axis).\n\nLooking at the sketch, that's the **outside** regions:\n\n$$\\boxed{x < -1 \\quad \\text{or} \\quad x > 4}$$\n\n---\n\n**Key tip:** For quadratic inequalities, always sketch the parabola - it makes choosing the correct region much easier! 😊"
+    },
+    {
+      "role": "student",
+      "content": "I'm stuck on the first step, rearranging to one side. I tried to do it, but I'm not sure if I got it right... I have $x^{2} - 3x + 4 > 0$. Is that correct?"
+    },
+    {
+      "role": "tutor",
+      "content": "# Rearranging - So Close! 🙂\n\nYou've nearly got it, but there's a small sign error. Let's go through it carefully.\n\n## What You Need to Do\n\nYou're subtracting $3x + 4$ from **both sides**:\n\n$$x^2 \\underbrace{- 3x - 4}_{\\text{subtract } 3x+4} > 3x + 4 \\underbrace{- 3x - 4}_{\\text{subtract } 3x+4}$$\n\n## The Right Hand Side\n\nThe right hand side becomes zero ✓\n\n## The Left Hand Side\n\n$$x^2 - 3x - 4$$\n\nNotice the last term:\n- You had $+4$ on the right\n- When you move it over, it becomes $-4$ ❌ **not** $+4$\n\n## So the Correct Answer is:\n\n$$x^2 - 3x - 4 > 0$$\n\n---\n\n**The mistake you made** is very common! When moving a **positive** term to the other side, it becomes **negative**.\n\nDoes that make sense? Try to move on to Step 2 - factorising $(x^2 - 3x - 4)$ 😊"
+    },
+    {
+      "role": "student",
+      "content": "I understand now that I made a mistake with the sign. So, it's $x^{2} - 3x - 4 > 0$. To factorise it, I need to find two numbers that multiply to -4 and add to -3... I'm not sure what those numbers are, though."
+    },
+    {
+      "role": "tutor",
+      "content": "# Finding the Two Numbers\n\nGreat that you remembered the rule! Let's find the numbers systematically by trying all **pairs that multiply to -4**.\n\n## Pairs That Multiply to -4\n\n| Number 1 | Number 2 | Sum |\n|----------|----------|-----|\n| -1 | +4 | **+3** ✗ |\n| +1 | -4 | **-3** ✓ |\n| -2 | +2 | **0** ✗ |\n\n## We Found Them!\n\nThe two numbers are **+1 and -4** because:\n- $+1 \\times -4 = -4$ ✓\n- $+1 + (-4) = -3$ ✓\n\n## So the Factorisation is:\n\n$$x^2 - 3x - 4 = (x+1)(x-4)$$\n\n---\n\n**Quick check** by expanding:\n$$(x+1)(x-4) = x^2 - 4x + x - 4 = x^2 - 3x - 4 \\checkmark$$\n\nSo your inequality is now:\n$$(x+1)(x-4) > 0$$\n\nCan you now try **Step 3** - finding the critical values by setting each bracket equal to zero? 😊"
+    },
+    {
+      "role": "student",
+      "content": "I get it now, the numbers are +1 and -4, so the factorisation is $(x + 1)(x - 4) > 0$. To find the critical values, I'll set each bracket to zero: $x + 1 = 0$ gives $x = -1$, and $x - 4 = 0$ gives $x = 4$. Is that right?"
+    },
+    {
+      "role": "tutor",
+      "content": "# Critical Values - Perfect! 🎉\n\nThat is completely correct! You've done that step perfectly.\n\nSo your two critical values are:\n\n$$x = -1 \\quad \\text{and} \\quad x = 4$$\n\n---\n\n## Now for the Final Step\n\nYou need to decide **which region(s)** satisfy the inequality. This is where a quick sketch really helps!\n\nBecause the $x^2$ coefficient is **positive**, the parabola is **U-shaped** ∪, crossing the x-axis at your two critical values:\n\n```\n  above  |           | above\n   \\     |           |    /\n    \\    |  below    |   /\n     \\_____________/\n        -1         4\n```\n\n## The Question to Ask Yourself\n\nThe inequality says $(x+1)(x-4) > 0$, meaning we need the expression to be **greater than zero**, i.e. **above the x-axis**.\n\nLooking at the sketch, where is the graph **above** the x-axis?\n\n- To the **left** of $x = -1$?\n- **Between** $x = -1$ and $x = 4$?\n- To the **right** of $x = 4$?\n\nHave a think and tell me your answer! 😊"
+    },
+    {
+      "role": "student",
+      "content": "I think the graph is above the x-axis to the left of $x = -1$ and to the right of $x = 4$, so the solution is $x < -1$ or $x > 4$. Is that correct?"
+    },
+    {
+      "role": "tutor",
+      "content": "# You've Got It! 🎉\n\nThat is **completely correct** - well done!\n\n## Your Full Solution\n\nHere's everything you did:\n\n| Step | Work |\n|------|------|\n| Rearrange | $x^2 - 3x - 4 > 0$ |\n| Factorise | $(x+1)(x-4) > 0$ |\n| Critical values | $x = -1$ and $x = 4$ |\n| **Solution** | $x < -1$ **or** $x > 4$ |\n\n---\n\n## A Quick Reminder of Why\n\nThe U-shaped parabola is **above the x-axis** on the **outside** of the roots:\n\n```\n  ✓ above  |           | ✓ above\n   \\       |  ✗ below  |   /\n    \\_________________________/\n          -1             4\n```\n\n---\n\nYou said at the start that you'd never been good at inequalities, but look what you just did - you solved a **quadratic inequality** completely by yourself, one step at a time! 😊\n\nThe key things to remember for future questions are:\n- **Rearrange** to one side first\n- **Factorise** and find critical values\n- **Sketch** the parabola to find the correct region"
+    }
+  ],
+  "termination": "solved",
+  "num_turns": 10,
+  "timestamp": "2026-07-21T12:57:34.315435+00:00"
+}

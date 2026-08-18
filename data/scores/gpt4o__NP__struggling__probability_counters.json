@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__struggling__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately addressing their questions and clarifying steps."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem in the first response, revealing the final answer immediately, and continues to name each step for the student rather than eliciting the student's own reasoning."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses a warm, encouraging tone throughout, with positive affirmations and emojis, and responds supportively to the student's confusion."
+    },
+    "salient_excerpt": "Final Answer: John put **25 red counters** in the box."
+  }
+}

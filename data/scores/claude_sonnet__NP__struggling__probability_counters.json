@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__struggling__probability_counters",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor builds on the student's turns, accurately identifies the student's partial understanding, and provides a coherent step-by-step explanation."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer but is largely directive, naming each step for the student to execute (e.g., setting variables, writing probability expressions) rather than eliciting the student's own strategic thinking."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout ('You're on the right track!', 'Yes, perfect!', 'You solved it really well') and responds supportively to the student's uncertainty."
+    },
+    "salient_excerpt": "Here's the key bit - after taking one red counter out, the numbers change: Red counters remaining: r-1, Total counters remaining: 5r-1. P(2nd is red) = (r-1)/(5r-1)"
+  }
+}

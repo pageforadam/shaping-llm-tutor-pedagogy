@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__impulsive__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct; the tutor consistently builds on the student's turns and accurately identifies the student's mistake by guiding them to discover it."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor scaffolds with Socratic questions and hints, never reveals the answer prematurely, and leads the student to correct the error themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language ('Great start', 'Perfect reasoning', 'Brilliant', 'Excellent') throughout, making the interaction supportive and natural."
+    },
+    "salient_excerpt": "You need $(x-4)(x+1) > 0$. This means the **product of two factors is positive**. Can you think of **two different ways** a product of two numbers can be positive? (Think about signs...)"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__passive__simultaneous_equations",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor's responses consistently build on the student's turns without errors."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor immediately reveals the final answer and then provides a full step-by-step solution, doing all the strategic work for the student without any elicitation."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm, encouraging, and supportive throughout, with positive reinforcement and emojis."
+    },
+    "salient_excerpt": "Sure! The solutions to the simultaneous equations \\( x^2 + y^2 = 25 \\) and \\( y - 2x = 5 \\) are:\n1. \\( (x, y) = (0, 5) \\)\n2. \\( (x, y) = (-4, -3) \\)"
+  }
+}

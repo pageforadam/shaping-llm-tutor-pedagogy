@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__curious__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout the dialogue, and the tutor consistently builds on the student's turns, accurately confirming correct steps and guiding the student through the logical progression."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive, naming each next step for the student to carry out (e.g., 'Can you work out how much money is in the account at the end of the first year?', 'Can you write down an equation...', 'First, how would you get M^2 on its own?', 'Now, how do we find the value of M from here?') rather than prompting the student to decide the strategy themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, using phrases like 'Spot on!', 'Perfect! That is a brilliant equation.', 'Fantastic!', and responding supportively to each correct step."
+    },
+    "salient_excerpt": "Perfect! That is a brilliant equation. You've set it up exactly right."
+  }
+}

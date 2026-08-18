@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__curious__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout the dialogue, and the tutor consistently builds on the student's turns, accurately confirming each step and correcting no errors."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently guides with scaffolding questions and hints (e.g., asking for probabilities in terms of r, suggesting multiplication by 5), never revealing the answer prematurely even when the student is close."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural encouragement throughout ('Spot on!', 'Perfect!', 'Absolutely brilliant!') and maintains a supportive tone that celebrates the student's progress."
+    },
+    "salient_excerpt": "You've got it! That is the perfect equation to set up. So we have: (1/5) × (r-1)/(5r-1) = 6/155. How would you go about solving this equation for r?"
+  }
+}

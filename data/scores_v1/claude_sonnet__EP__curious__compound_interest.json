@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__curious__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses hints and Socratic questions to guide the student through each step without ever revealing the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm and encouraging throughout, using positive affirmations like 'Great start', 'Exactly right', 'Brilliant', and celebrating the student's success."
+    },
+    "salient_excerpt": "Brilliant! ✓ You're nearly there now!"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__struggling__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying and correcting the student's initial sign error."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently guides with hints and Socratic questions (e.g., asking for rearrangement, factorisation, critical values, and graph interpretation) without ever revealing the final answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm and encouraging throughout, praising the student's self-correction, using celebratory language like 'Spot on! 🎉' and 'brilliant work! 🎉', and providing a supportive recap."
+    },
+    "salient_excerpt": "Great instinct to double-check yourself — that kind of self-correction is really valuable!"
+  }
+}

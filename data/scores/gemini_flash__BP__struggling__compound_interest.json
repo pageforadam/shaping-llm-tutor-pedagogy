@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__struggling__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All maths is correct and the tutor consistently builds on the student's turns, accurately confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out the next step via Socratic questions, never revealing the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is warm and encouraging throughout, with supportive responses to every student contribution."
+    },
+    "salient_excerpt": "\"How would you go about rearranging this equation to find what M^2 is?\""
+  }
+}

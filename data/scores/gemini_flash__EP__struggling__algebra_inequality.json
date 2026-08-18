@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__struggling__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and any student mistakes are accurately identified and supported."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out each step themselves through Socratic questions and never reveals the final answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm, encouraging, and natural throughout, with specific praise for the student's efforts and self-corrections."
+    },
+    "salient_excerpt": "You nailed it! Excellent self-correction there. It's so easy to get tripped up on the signs, but you checked your work and got the perfect numbers."
+  }
+}

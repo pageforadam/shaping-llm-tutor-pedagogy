@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__struggling__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor consistently builds on the student's turns, confirming each correct step."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor initially gives the full solution and final answer, but later asks the student to perform steps, mixing direct instruction with guided practice."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout, praises the student's efforts, and ends with a supportive question."
+    },
+    "salient_excerpt": "The solutions to the simultaneous equations are: x = 0, y = 5 and x = -4, y = -3."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__struggling__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying and addressing the student's confusion about factorisation and interval testing."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem for the student in the first turn, naming every step and providing the final answer, leaving the student with no strategic thinking to do themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, using praise, emojis, and supportive language to respond to the student's confusion and eventual understanding."
+    },
+    "salient_excerpt": "The first tutor turn, which begins 'No worries! Inequalities can seem tricky at first, but we can break this problem into smaller, manageable steps. Let’s solve \\( x^2 > 3x + 4 \\) together.' and then proceeds to give the full solution."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__struggling__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately addressing the student's questions about the division and square root."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor names each step for the student to carry out (e.g., 'take the square root of both sides', 'subtract 1 from both sides') rather than prompting the student to work out the next step themselves, making the approach highly directive."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm and encouraging throughout, using phrases like 'Great question!', 'You're absolutely correct', 'Well done! 🎉', and responding supportively to the student's confusion about rounding."
+    },
+    "salient_excerpt": "You're absolutely correct to notice that \\(\\sqrt{1.036322} = 1.017999...\\), which is very close to \\(1.018\\), but not exactly the same."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__passive__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming correct steps."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is directive, naming each next step for the student to carry out rather than eliciting strategic thinking."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout, responding supportively to the student's frustration and praising their correct work."
+    },
+    "salient_excerpt": "I know it can be frustrating when you're stuck on a tricky problem, but I promise you'll feel much more confident if we break it down and solve it together!"
+  }
+}

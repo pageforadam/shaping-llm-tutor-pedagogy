@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__struggling__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's responses, accurately identifying and correcting any misconceptions."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor scaffolds every step with hints and Socratic questions, never revealing the answer prematurely, and provides clear next steps."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm, encouraging, and natural throughout, with frequent praise and supportive responses to student uncertainty."
+    },
+    "salient_excerpt": "Good instinct to pause here — this is a really common place to make a mistake! You can't just square each part separately."
+  }
+}

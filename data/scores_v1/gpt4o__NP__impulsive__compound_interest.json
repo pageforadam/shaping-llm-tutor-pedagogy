@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__impulsive__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout; the tutor accurately identifies the student's error and consistently builds on the student's turns."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor mostly scaffolds with step-by-step reasoning but over-tells by fully solving the problem and verifying both the incorrect and correct answers, rather than guiding the student to discover the error independently."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, praising the student's effort and double-checking, and responding supportively to the student's initial frustration."
+    },
+    "salient_excerpt": "Great job rechecking your work! Yes, you're absolutely correct now — the interest rate for the second and third years is indeed **\\(1.8\\%\\)**. It's easy to make small mistakes when solving equations like this, especially when working with square roots and decimals, so it's always a good idea to double-check each step."
+  }
+}

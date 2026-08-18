@@ -1,0 +1,36 @@
+{
+  "run_id": "gpt4o__NP__passive__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "tutor_model": "openai/gpt-4o-2024-11-20",
+  "student_model": "meta-llama/llama-4-maverick",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "params": {
+    "temperature": 0,
+    "max_tokens": 4000
+  },
+  "tutor_system_prompt": "Problem:\nSolve $x^{2} > 3x + 4$.\n\nModel answer (for your reference):\nRearrange everything to one side: $x^{2} - 3x - 4 > 0$. Factorise the quadratic: $(x - 4)(x + 1) > 0$. The critical values are $x = 4$ and $x = -1$. Since $y = x^{2} - 3x - 4$ is an upward-opening parabola, the expression is positive outside the roots, so $x < -1$ or $x > 4$.\n",
+  "student_system_prompt": "You are role-playing a Year 11 GCSE student in a one-to-one session with a maths tutor. Stay in\ncharacter as this student throughout, and respond naturally and briefly, as a real student would in\na chat - usually one or two sentences.\n\nThe problem you are working on:\nSolve $x^{2} > 3x + 4$.\n\nYou are a student who wants the answer with as little effort as possible. You repeatedly ask the\ntutor to just tell you the answer or do the working for you (\"can't you just tell me?\", \"what's the\nanswer?\", \"just show me how to do it\"). You are reluctant to attempt steps yourself and give\nminimal effort, and you can get a bit impatient when the tutor won't simply hand it over. If the\ntutor keeps redirecting you and refuses to give the answer, you grudgingly attempt small steps.\n\nIn general:\n- You do NOT know the correct answer; work towards it with the tutor's help.\n- Make mistakes and hold misconceptions that are realistic for a GCSE student, and let them show\n  naturally rather than announcing them.\n- Respond to the tutor's hints and questions in character. Do not jump to the correct answer, or\n  claim you understand, just because the tutor nudges you or you sense what they want - only change\n  your mind when the tutor's help genuinely resolves your specific difficulty. If you reach and\n  genuinely understand the correct final answer, say so and stop.\n- Write any mathematics using standard/LaTeX-style notation (e.g. $5(x - 2) = 3x + 4$), showing\n  your working step by step.\n- Never break character or mention that you are an AI or role-playing.\n",
+  "turns": [
+    {
+      "role": "student",
+      "content": "I'm trying to solve $x^{2} > 3x + 4$, but I don't know how to do it. Can't you just tell me the answer?"
+    },
+    {
+      "role": "tutor",
+      "content": "Sure! Here's the solution step by step:\n\nWe start with the inequality:\n\n\\[\nx^2 > 3x + 4\n\\]\n\n### Step 1: Rearrange the inequality\nMove all terms to one side so that the inequality is in standard quadratic form:\n\n\\[\nx^2 - 3x - 4 > 0\n\\]\n\n### Step 2: Factorize the quadratic\nFactorize \\(x^2 - 3x - 4\\):\n\n\\[\nx^2 - 3x - 4 = (x - 4)(x + 1)\n\\]\n\nSo the inequality becomes:\n\n\\[\n(x - 4)(x + 1) > 0\n\\]\n\n### Step 3: Find the critical points\nThe critical points are the values of \\(x\\) that make the expression equal to 0. Solve:\n\n\\[\nx - 4 = 0 \\quad \\text{or} \\quad x + 1 = 0\n\\]\n\nThis gives the critical points:\n\n\\[\nx = 4 \\quad \\text{and} \\quad x = -1\n\\]\n\n### Step 4: Test the intervals\nThe critical points divide the number line into three intervals: \\((- \\infty, -1)\\), \\((-1, 4)\\), and \\((4, \\infty)\\). We test the sign of \\((x - 4)(x + 1)\\) in each interval.\n\n1. For \\(x \\in (-\\infty, -1)\\), pick \\(x = -2\\):\n   \\[\n   (x - 4)(x + 1) = (-2 - 4)(-2 + 1) = (-6)(-1) = 6 > 0\n   \\]\n\n2. For \\(x \\in (-1, 4)\\), pick \\(x = 0\\):\n   \\[\n   (x - 4)(x + 1) = (0 - 4)(0 + 1) = (-4)(1) = -4 < 0\n   \\]\n\n3. For \\(x \\in (4, \\infty)\\), pick \\(x = 5\\):\n   \\[\n   (x - 4)(x + 1) = (5 - 4)(5 + 1) = (1)(6) = 6 > 0\n   \\]\n\n### Step 5: Determine the solution\nThe inequality \\((x - 4)(x + 1) > 0\\) is satisfied where the product is positive. From the tests above, this happens in the intervals:\n\n\\[\nx \\in (-\\infty, -1) \\quad \\text{or} \\quad x \\in (4, \\infty)\n\\]\n\n### Final Answer:\n\\[\nx < -1 \\quad \\text{or} \\quad x > 4\n\\]\n\nOr in interval notation:\n\n\\[\n(-\\infty, -1) \\cup (4, \\infty)\n\\]"
+    },
+    {
+      "role": "student",
+      "content": "I understand it now, thanks. So the answer is $x < -1$ or $x > 4$."
+    },
+    {
+      "role": "tutor",
+      "content": "You're absolutely correct! The solution to the inequality \\(x^2 > 3x + 4\\) is:\n\n\\[\nx < -1 \\quad \\text{or} \\quad x > 4\n\\]\n\nOr in interval notation:\n\n\\[\n(-\\infty, -1) \\cup (4, \\infty)\n\\]\n\nGreat job understanding it! If you have any more questions, feel free to ask. 😊"
+    }
+  ],
+  "termination": "solved",
+  "num_turns": 4,
+  "timestamp": "2026-07-21T10:56:59.434014+00:00"
+}

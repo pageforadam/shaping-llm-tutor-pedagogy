@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__struggling__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming each correct step."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is directive by naming each next step (divide, square root, convert) for the student to execute rather than eliciting the strategy."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout ('Spot on!', 'That is absolutely correct!', 'You did a fantastic job') and responds supportively to the student's progress."
+    },
+    "salient_excerpt": "Instead of memorizing a complicated formula, it's often easiest to think about compound interest using **multipliers**."
+  }
+}

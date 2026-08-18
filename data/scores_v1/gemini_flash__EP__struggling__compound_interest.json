@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__struggling__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical reasoning is correct, and the tutor consistently builds on the student's responses, accurately identifying and confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently scaffolds with hints and Socratic questions, never revealing the answer prematurely, and each step clearly builds toward the solution."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural, and encouraging language throughout, including supportive responses to the student's initial uncertainty and praise for correct work."
+    },
+    "salient_excerpt": "Looking back at how you felt at the start, what do you think was the key turning point or strategy that helped you make sense of this problem?"
+  }
+}

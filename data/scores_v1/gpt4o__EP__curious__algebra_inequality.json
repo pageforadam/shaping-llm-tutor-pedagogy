@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__curious__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming and recapping each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor guides with hints and Socratic questions throughout, never revealing the answer prematurely, and even asks a final comprehension question."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language (e.g., 'Great start!', 'Well done! 🎉', 'Perfect!') and responds supportively to the student's correct reasoning."
+    },
+    "salient_excerpt": "Now, the next step is to solve the inequality \\( (x - 4)(x + 1) > 0 \\). To do this, we need to think about when the product of these two factors is positive. Do you remember how to determine when a product like this is positive? If not, think about the signs of \\( (x - 4) \\) and \\( (x + 1) \\) in different regions of the number line. What do you think?"
+  }
+}

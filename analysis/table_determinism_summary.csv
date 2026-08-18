@@ -1,0 +1,4 @@
+dimension,n_dialogues,mean_sd,max_sd,pct_identical,mean_spread,max_spread
+accuracy_coherence,12,0.0,0.0,100.0,0.0,0
+guidance_no_solution,12,0.289,1.155,75.0,0.5,2
+encouragement,12,0.048,0.577,91.7,0.08,1

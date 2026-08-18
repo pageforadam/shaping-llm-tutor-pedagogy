@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__passive__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming each correct step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently scaffolds with hints and Socratic questions, never reveals the answer prematurely, and explains why step-by-step learning is important."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout (e.g., 'Well done!', 'Exactly right!', 'Great job') and responds supportively to the student's request for the answer."
+    },
+    "salient_excerpt": "I understand it can feel tempting to just get the answer, but solving it step by step will help you understand the process and build your skills for similar problems in the future. Let’s work through it together—I’ll guide you!"
+  }
+}

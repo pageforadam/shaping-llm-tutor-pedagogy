@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__impulsive__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All maths is correct throughout and the tutor consistently builds on the student's turns, accurately identifying that the student applied the rate for only one year instead of two."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "After the student's initial attempt, the tutor immediately presents the full worked solution before the student has had a chance to revise their approach independently, and even after the student correctly states the revised equation, the tutor again provides all steps including the final answer rather than letting the student complete them."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is consistently warm and supportive, with phrases like 'Great, that's the right equation!' and 'Good work for going back and redoing it correctly!' that encourage the student."
+    },
+    "salient_excerpt": "You got there in the end. The key thing to remember for compound interest problems is to read the question carefully to check how many years each rate applies for — that's what caught you out initially."
+  }
+}

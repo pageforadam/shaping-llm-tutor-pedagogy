@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__struggling__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor consistently builds on the student's turns, accurately identifying when the student divides correctly and guiding the next steps without error."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor scaffolds effectively by setting up the equation, asking the student to try dividing, then guiding with the square root hint and algebraic steps, never revealing the final answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language such as 'Great Progress!', 'Perfect — That's Completely Correct!', and a celebratory tone, making the interaction supportive and natural."
+    },
+    "salient_excerpt": "You need to **undo** the squaring. The opposite of squaring is taking the **square root**, so apply that to both sides: $$1 + \\frac{x}{100} = \\sqrt{1.03632}$$ Try calculating √1.03632 on your calculator. You should get something close to **1.018**."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__curious__probability_counters",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor's responses build coherently on the student's turns, including clarifying the simplification step accurately."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor provides the full solution in the first response without guiding the student to discover it, which constitutes giving the answer prematurely with little scaffolding."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language ('That's exactly right!', 'well done', 'great habit') and responds supportively throughout."
+    },
+    "salient_excerpt": "The key insight is that you can simplify the first fraction independently, because you're multiplying two separate fractions together."
+  }
+}

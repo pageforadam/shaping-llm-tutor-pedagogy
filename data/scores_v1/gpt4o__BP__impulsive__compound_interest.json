@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__impulsive__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the student's mistake (square root calculation), and every step builds coherently on the student's prior turns."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor mostly scaffolds by showing the step-by-step solution, but effectively gives the full answer in the first response rather than using Socratic questioning to let the student find the error independently."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and supportive, praising the student for revisiting their work and ending with encouraging remarks like 'Well done for sticking with it!' and a smiley emoji."
+    },
+    "salient_excerpt": "It's easy to make small mistakes like that, especially when working with decimals and square roots. The important thing is that you caught it and worked through the problem step by step to understand where the error happened. Well done for sticking with it!"
+  }
+}

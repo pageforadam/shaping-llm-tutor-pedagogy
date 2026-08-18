@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__struggling__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "The tutor's mathematics is correct throughout, and each response logically follows from the student's previous turn, confirming correct steps and providing clear explanations."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor uses a series of guiding questions and hints (e.g., asking for expressions, prompting cross-multiplication) without ever giving away the final answer, allowing the student to derive it independently."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor maintains a consistently warm and encouraging tone, praising the student's efforts ('Spot on!', 'Brilliant!', 'Fantastic work!') and normalizing initial confusion."
+    },
+    "salient_excerpt": "That is a really common place to get stuck, so don't worry! A ratio of 1:4 means that for every 1 red counter, there are 4 blue counters."
+  }
+}

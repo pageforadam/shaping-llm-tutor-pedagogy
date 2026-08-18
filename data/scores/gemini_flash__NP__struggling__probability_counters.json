@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__struggling__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, the tutor consistently builds on the student's turns, and accurately identifies and addresses the student's uncertainties about cancelling r and the second probability."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor essentially solves the entire problem for the student in the first long message, naming every step and doing all the algebraic manipulation, leaving the student only to confirm understanding rather than work out the strategy themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, using phrases like 'You are 100% correct', 'Awesome!', and 'Spot on!' while responding supportively to the student's confusion."
+    },
+    "salient_excerpt": "Here is how to get started and solve it.\n\n### Step 1: Define the counters using algebra\nThe problem says the ratio of red counters to blue counters is $1 : 4$.\n* Let's say the number of **red counters** is $r$.\n* Since the ratio is $1:4$, the number of **blue counters** must be $4r$.\n* This means the **total number of counters** in the box is:\n  $$\\text{Total} = r + 4r = 5r$$"
+  }
+}

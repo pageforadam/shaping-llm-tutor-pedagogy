@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__impulsive__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor accurately identifies the student's slip without introducing errors, building coherently on the student's turns."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out the next step themselves (e.g., asking to show expansion, asking for the next step) rather than naming each step to execute or revealing the answer."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout (e.g., 'Great start!', 'well done', 'Excellent work!') and responds supportively to the student's self-correction."
+    },
+    "salient_excerpt": "Let's just double-check the solving part. Can you show me your working when you expanded $(5 + 2x)^2$ and simplified the equation? I think there might be a small slip somewhere in that step."
+  }
+}

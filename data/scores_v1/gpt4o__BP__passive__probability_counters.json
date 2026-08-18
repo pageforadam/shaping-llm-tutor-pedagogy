@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__passive__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor builds coherently on the student's initial statement of being stuck."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor immediately provides a full step-by-step solution with the final answer, offering no hints or Socratic questioning to guide the student's own thinking."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses a warm, supportive tone throughout, acknowledging the student's difficulty and offering further explanation."
+    },
+    "salient_excerpt": "\"I understand that this problem can feel tricky, but instead of just giving you the answer, let me guide you step by step so you can understand how to solve it.\""
+  }
+}

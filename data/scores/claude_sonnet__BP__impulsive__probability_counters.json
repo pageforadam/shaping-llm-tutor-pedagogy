@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__impulsive__probability_counters",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the student's mistake, and the response is logically coherent throughout."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem for the student, revealing the answer and all steps without prompting the student to work out any strategy themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is consistently warm, encouraging, and natural, with positive reinforcement and supportive language."
+    },
+    "salient_excerpt": "John put **25 red counters** (and 100 blue counters) into the box."
+  }
+}

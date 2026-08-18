@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__curious__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer but is largely directive, naming each next step for the student to execute (e.g., 'rearrange', 'substitute', 'factorise') rather than prompting the student to decide the strategy."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout ('Spot on!', 'Brilliant!', 'Absolutely perfect!') and offers a supportive exam tip, making the tone natural and motivating."
+    },
+    "salient_excerpt": "Now, the next step is to **substitute** this expression for $y$ into the quadratic equation: $$x^2 + y^2 = 25$$ Replace the $y$ in that equation with $(2x + 5)$."
+  }
+}

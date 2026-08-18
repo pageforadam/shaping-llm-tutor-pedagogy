@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__curious__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and accurately identifies and locates the student's minor slip (the incomplete fraction) without error."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out each step themselves through Socratic questions and nudges, never revealing the final answer or naming each step to be executed."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout (e.g., 'brilliant starting point', 'Spot on!', 'fantastic algebra') and responds supportively to the student's progress."
+    },
+    "salient_excerpt": "That is a brilliant starting point! Yes, using a variable like $r$ is exactly the right way to go."
+  }
+}

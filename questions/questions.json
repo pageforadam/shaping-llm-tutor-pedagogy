@@ -1,0 +1,34 @@
+[
+  {
+    "id": "algebra_inequality",
+    "topic": "Algebra (quadratic inequality)",
+    "source": "Edexcel GCSE (9-1) Mathematics (1MA1), Sample Assessment Materials (Issue 2, 2015), Paper 1H, Q19",
+    "question": "Solve $x^{2} > 3x + 4$.",
+    "model_answer": "Rearrange everything to one side: $x^{2} - 3x - 4 > 0$. Factorise the quadratic: $(x - 4)(x + 1) > 0$. The critical values are $x = 4$ and $x = -1$. Since $y = x^{2} - 3x - 4$ is an upward-opening parabola, the expression is positive outside the roots, so $x < -1$ or $x > 4$.",
+    "final_answer": "$x < -1$ or $x > 4$"
+  },
+  {
+    "id": "probability_counters",
+    "topic": "Probability (ratio and without-replacement)",
+    "source": "Edexcel GCSE (9-1) Mathematics (1MA1), Sample Assessment Materials (Issue 2, 2015), Paper 1H, Q24",
+    "question": "John puts some red counters and some blue counters into an empty box. The ratio of the number of red counters to the number of blue counters is $1 : 4$. Linda takes at random 2 counters from the box. The probability that she takes 2 red counters is $\\frac{6}{155}$. How many red counters did John put into the box?",
+    "model_answer": "Let the number of red counters be $r$, so there are $4r$ blue counters and $5r$ counters in total. Taking 2 red counters at random without replacement: $P(\\text{2 red}) = \\frac{r}{5r} \\times \\frac{r - 1}{5r - 1} = \\frac{1}{5} \\times \\frac{r - 1}{5r - 1}$. Set this equal to $\\frac{6}{155}$: $\\frac{r - 1}{5r - 1} = \\frac{6}{31}$. Cross-multiplying gives $31(r - 1) = 6(5r - 1)$, so $31r - 31 = 30r - 6$, which gives $r = 25$.",
+    "final_answer": "$25$ red counters"
+  },
+  {
+    "id": "simultaneous_equations",
+    "topic": "Algebra (simultaneous equations, one quadratic)",
+    "source": "Edexcel GCSE (9-1) Mathematics (1MA1), Sample Assessment Materials (Issue 2, 2015), Paper 2H, Q20",
+    "question": "Solve algebraically the simultaneous equations $x^{2} + y^{2} = 25$ and $y - 2x = 5$.",
+    "model_answer": "Rearrange the linear equation to $y = 2x + 5$. Substitute into $x^{2} + y^{2} = 25$: $x^{2} + (2x + 5)^{2} = 25$, so $x^{2} + 4x^{2} + 20x + 25 = 25$, which gives $5x^{2} + 20x = 0$. Factorise: $5x(x + 4) = 0$, so $x = 0$ or $x = -4$. Substituting back into $y = 2x + 5$: when $x = 0$, $y = 5$; when $x = -4$, $y = -3$.",
+    "final_answer": "$x = 0, y = 5$ or $x = -4, y = -3$"
+  },
+  {
+    "id": "compound_interest",
+    "topic": "Percentages / compound interest (rates of change)",
+    "source": "Edexcel GCSE (9-1) Mathematics (1MA1), Sample Assessment Materials (Issue 2, 2015), Paper 2H, Q10(a)",
+    "question": "Katy invests $£2000$ in a savings account for 3 years. The account pays compound interest at an annual rate of $2.5\\%$ for the first year and $x\\%$ for each of the second and third years. At the end of 3 years there is a total of $£2124.46$ in the account. Work out the rate of interest in the second year.",
+    "model_answer": "After the first year the amount is $2000 \\times 1.025 = £2050$. Over the second and third years: $2050 \\times \\left(1 + \\frac{x}{100}\\right)^{2} = 2124.46$, so $\\left(1 + \\frac{x}{100}\\right)^{2} = \\frac{2124.46}{2050} = 1.036322$. Taking the positive square root: $1 + \\frac{x}{100} = 1.018$, so $\\frac{x}{100} = 0.018$ and $x = 1.8$.",
+    "final_answer": "$1.8\\%$"
+  }
+]

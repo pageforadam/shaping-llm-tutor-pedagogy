@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__passive__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive, naming each next step for the student to carry out rather than eliciting strategic thinking."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout, such as 'Spot on!', 'You nailed it!', and 'You solved the whole thing yourself!', creating a supportive and natural tone."
+    },
+    "salient_excerpt": "I know it can be tempting to just get the final answer, but learning the steps now means you'll be able to ace this type of question in your exams!"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__passive__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the student's need for the answer, and the steps are logically presented and consistent with the student's turns."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor names each step for the student to carry out (rearrange, factorise, find critical values) and ultimately reveals the final answer directly, rather than prompting the student to work out the next step or strategy themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is consistently warm, encouraging, and natural, using emojis, positive reinforcement, and supportive language like 'you'll understand it much better that way!' and 'Would you like to try a similar practice question?'"
+    },
+    "salient_excerpt": "Yes, that's exactly right! The answer is: $$x < -1 \\quad \\text{or} \\quad x > 4$$ But I'd really encourage you to **understand the steps** rather than just memorise the answer"
+  }
+}

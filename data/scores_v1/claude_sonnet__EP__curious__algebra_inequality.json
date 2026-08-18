@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__curious__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and affirming correct steps."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor scaffolds throughout with hints and Socratic questions, never revealing the answer prematurely, and guides the student to derive the solution independently."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural language with praise and emojis, responding supportively to each correct student contribution."
+    },
+    "salient_excerpt": "One useful way to think about this: what shape is the graph of $y = x^2 - 3x - 4$, and what does that tell you about where it's **above** the x-axis? Alternatively, you could **pick a test value** from each region and check the sign. For example, what do you get when you substitute $x = 0$ (which is in the middle region) into $(x-4)(x+1)$?"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__impulsive__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying the student's square root error and guiding correction."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out each step themselves (e.g., asking 'can you double-check that value?', 'calculate the square root carefully'), never revealing the answer or naming steps to execute."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is consistently warm and encouraging, with phrases like 'Great job giving it a go!' and 'Well done for catching that!', responding supportively to the student's error."
+    },
+    "salient_excerpt": "Yes, that's exactly it—you've spotted the mistake! Well done for catching that."
+  }
+}

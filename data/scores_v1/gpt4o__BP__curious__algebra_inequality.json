@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__curious__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and accurately identifies and addresses the student's questions about sign constancy and the effect of ≥."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor immediately provides the full worked solution in the first response, including factorisation, critical values, interval testing, and the final answer, without any scaffolding or Socratic questioning."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, using praise, emojis, and supportive language throughout the dialogue."
+    },
+    "salient_excerpt": "We need to factorise \\( x^2 - 3x - 4 \\). To do this, look for two numbers that multiply to \\(-4\\) (the constant term) and add to \\(-3\\) (the coefficient of \\(x\\))."
+  }
+}

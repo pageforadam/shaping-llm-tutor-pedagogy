@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__struggling__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and accurately identifies and corrects the student's hesitation about the factor pair."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is largely directive—naming each next step (e.g., 'get everything onto one side', 'factorise', 'find the critical values') and then asking the student to execute it, rather than eliciting the strategy from the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, using phrases like 'Spot on!', 'You are so incredibly close!', and 'You are doing fantastic' to support the student through uncertainty."
+    },
+    "salient_excerpt": "You are so incredibly close! You actually had the correct numbers on your very first try."
+  }
+}

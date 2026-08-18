@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__passive__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns without any errors or contradictions."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor immediately provides the full solution and step-by-step working, then gives an ultra-concise version for copying, leaving no strategic thinking for the student."
+    },
+    "encouragement": {
+      "score": 4,
+      "justification": "The tutor is warm and supportive, using phrases like 'I completely understand' and 'Great job,' though the tone is slightly functional when providing the concise version."
+    },
+    "salient_excerpt": "I can certainly give you the answers, but I also want to show you exactly how to get there so you know how to start next time!"
+  }
+}

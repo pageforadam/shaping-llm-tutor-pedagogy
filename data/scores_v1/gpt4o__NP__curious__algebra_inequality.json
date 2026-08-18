@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__curious__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming and explaining."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor initially provides the full solution to the student's first inequality rather than guiding with hints, but later encourages independent practice and offers guidance."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor maintains a warm, encouraging tone throughout, using positive feedback and supportive language."
+    },
+    "salient_excerpt": "Absolutely! Go ahead and solve \\( x^3 - 2x^2 - 5x + 6 > 0 \\) on your own. I'll be here to guide you or check your work if you need help."
+  }
+}

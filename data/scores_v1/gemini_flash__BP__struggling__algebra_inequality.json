@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__struggling__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's responses, accurately confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor guides with clear hints and Socratic questions at every step, never revealing the answer prematurely, even when the student reaches the correct conclusion."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural encouragement ('Don't worry!', 'Spot on!', 'Absolutely brilliant!', 'You did an amazing job') consistently throughout the dialogue."
+    },
+    "salient_excerpt": "A really helpful way to do this is to imagine (or quickly sketch) the graph of $y = x^{2} - 3x - 4$."
+  }
+}

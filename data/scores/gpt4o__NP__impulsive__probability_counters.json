@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__impulsive__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying the student's mistake."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor provides the entire solution step-by-step without ever prompting the student to work out the next step or strategy themselves, essentially solving the problem for the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm, supportive, and natural throughout, enthusiastically praising the student for revisiting their work and encouraging a growth mindset."
+    },
+    "salient_excerpt": "Let's carefully go through the problem and verify your solution."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__curious__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical statements are correct and the tutor consistently builds on the student's turns, accurately identifying and addressing the student's confusion about sign constancy."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "After the initial factorisation prompt, the tutor names all remaining steps and reveals the final answer directly, leaving the student no opportunity to work out the sign chart or solution independently."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses affirming language, emojis, and praise throughout, and responds warmly to the student's question, creating a supportive and natural tone."
+    },
+    "salient_excerpt": "\"The sign of the product can ONLY change when one of the brackets changes sign - and that only happens at the critical values (x = -1 and x = 4).\""
+  }
+}

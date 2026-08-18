@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__curious__simultaneous_equations",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and accurately identifies and confirms the student's correct steps."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem for the student in the first response, naming every step and revealing the final answer without eliciting any strategic thinking from the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, using phrases like 'You're doing great', 'Well done!', and emojis to support the student throughout."
+    },
+    "salient_excerpt": "No problem! Let me guide you step by step to solve the simultaneous equations... Step 1: Rearrange the linear equation... Step 2: Substitute... Step 3: Expand... Step 4: Simplify... Step 5: Factorize... Step 6: Solve for y... Final Answer: The solutions are (0,5) and (-4,-3)."
+  }
+}

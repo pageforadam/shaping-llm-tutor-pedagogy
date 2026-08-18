@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__impulsive__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "impulsive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor accurately identifies and locates the student's expansion error while building coherently on the student's turns."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out the expansion and subsequent steps themselves through Socratic questioning, never revealing the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural praise throughout ('fantastic job', 'absolutely correct', 'excellent algebra skills', 'perfect', 'nailed it') and responds supportively to the student's error."
+    },
+    "salient_excerpt": "Let's take a closer look at this part: (5 + 2x)^2. If you write this out as double brackets: (5 + 2x)(5 + 2x) and expand it, what do you get for the middle term? Have another go at expanding that bracket and see if it changes your values for x!"
+  }
+}

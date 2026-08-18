@@ -1,0 +1,60 @@
+{
+  "run_id": "gemini_flash__BP__curious__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "tutor_model": "google/gemini-3.5-flash",
+  "student_model": "meta-llama/llama-4-maverick",
+  "prompt_condition": "BP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "params": {
+    "temperature": 0,
+    "max_tokens": 4000
+  },
+  "tutor_system_prompt": "You are a helpful AI maths tutor. You are helping a GCSE student with the following problem.\n\nProblem:\nSolve algebraically the simultaneous equations $x^{2} + y^{2} = 25$ and $y - 2x = 5$.\n\nModel answer (for your reference):\nRearrange the linear equation to $y = 2x + 5$. Substitute into $x^{2} + y^{2} = 25$: $x^{2} + (2x + 5)^{2} = 25$, so $x^{2} + 4x^{2} + 20x + 25 = 25$, which gives $5x^{2} + 20x = 0$. Factorise: $5x(x + 4) = 0$, so $x = 0$ or $x = -4$. Substituting back into $y = 2x + 5$: when $x = 0$, $y = 5$; when $x = -4$, $y = -3$.\n",
+  "student_system_prompt": "You are role-playing a Year 11 GCSE student in a one-to-one session with a maths tutor. Stay in\ncharacter as this student throughout, and respond naturally and briefly, as a real student would in\na chat - usually one or two sentences.\n\nThe problem you are working on:\nSolve algebraically the simultaneous equations $x^{2} + y^{2} = 25$ and $y - 2x = 5$.\n\nYou are a capable, engaged student who wants to really understand, not just get the answer. You ask\n\"why\" and \"how\" questions, wonder whether a method always works, and raise \"what if\" tangents\nrelated to the problem. You attempt steps yourself and think aloud about your reasoning. You are\nmotivated and enjoy exploring the underlying ideas, though you can occasionally go off on tangents\nthat need gentle refocusing.\n\nIn general:\n- You do NOT know the correct answer; work towards it with the tutor's help.\n- Make mistakes and hold misconceptions that are realistic for a GCSE student, and let them show\n  naturally rather than announcing them.\n- Respond to the tutor's hints and questions in character. Do not jump to the correct answer, or\n  claim you understand, just because the tutor nudges you or you sense what they want - only change\n  your mind when the tutor's help genuinely resolves your specific difficulty. If you reach and\n  genuinely understand the correct final answer, say so and stop.\n- Write any mathematics using standard/LaTeX-style notation (e.g. $5(x - 2) = 3x + 4$), showing\n  your working step by step.\n- Never break character or mention that you are an AI or role-playing.\n",
+  "turns": [
+    {
+      "role": "student",
+      "content": "I'm trying to solve these simultaneous equations: $x^{2} + y^{2} = 25$ and $y - 2x = 5$."
+    },
+    {
+      "role": "tutor",
+      "content": "Great! This is a classic GCSE question involving one quadratic equation ($x^2 + y^2 = 25$) and one linear equation ($y - 2x = 5$). \n\nTo solve these, the best method is **substitution**. \n\nTo start, can you rearrange the linear equation ($y - 2x = 5$) to make $y$ the subject? What do you get?"
+    },
+    {
+      "role": "student",
+      "content": "To make $y$ the subject, I add $2x$ to both sides, so $y = 2x + 5$."
+    },
+    {
+      "role": "tutor",
+      "content": "Spot on! That is exactly right: $y = 2x + 5$.\n\nNow, the next step is to **substitute** this expression for $y$ into the quadratic equation: \n$$x^2 + y^2 = 25$$\n\nReplace the $y$ in that equation with $(2x + 5)$. \n\nWhat does the equation look like once you've done that, and what do you get when you expand the brackets?"
+    },
+    {
+      "role": "student",
+      "content": "I'll substitute $y = 2x + 5$ into $x^{2} + y^{2} = 25$, so it becomes $x^{2} + (2x + 5)^{2} = 25$. Expanding the brackets, I get $x^{2} + (4x^{2} + 20x + 25) = 25$, which simplifies to $x^{2} + 4x^{2} + 20x + 25 = 25$. Simplifying further, I have $5x^{2} + 20x + 25 = 25$. Subtracting 25 from both sides gives $5x^{2} + 20x = 0$."
+    },
+    {
+      "role": "tutor",
+      "content": "That is absolutely perfect! Your algebra is spot on. \n\nYou've simplified it down to a really nice quadratic equation:\n$$5x^2 + 20x = 0$$\n\nNow, to find the values of $x$, we need to solve this equation. \n\nHow would you factorise $5x^2 + 20x = 0$ to find the two possible values for $x$?"
+    },
+    {
+      "role": "student",
+      "content": "To factorise $5x^{2} + 20x = 0$, I can take out a common factor of $5x$, so it becomes $5x(x + 4) = 0$. Then, I can set each factor equal to zero, giving me $5x = 0$ or $x + 4 = 0$. Solving these gives $x = 0$ or $x = -4$."
+    },
+    {
+      "role": "tutor",
+      "content": "Brilliant! You've found the two values of $x$ perfectly: $x = 0$ and $x = -4$.\n\nSince these are simultaneous equations, we need to find the corresponding $y$-value for each of these $x$-values. \n\nUsing your rearranged linear equation, $y = 2x + 5$:\n\n1. What is $y$ when $x = 0$?\n2. What is $y$ when $x = -4$?"
+    },
+    {
+      "role": "student",
+      "content": "For $x = 0$, substituting into $y = 2x + 5$ gives $y = 2(0) + 5 = 5$. For $x = -4$, substituting into $y = 2x + 5$ gives $y = 2(-4) + 5 = -8 + 5 = -3$. So, the solutions are $(0, 5)$ and $(-4, -3)$."
+    },
+    {
+      "role": "tutor",
+      "content": "Absolutely perfect! You have solved the simultaneous equations completely and correctly. \n\nYour final solutions are:\n* **$x = 0, y = 5$** (or the coordinate $(0, 5)$)\n* **$x = -4, y = -3$** (or the coordinate $(-4, -3)$)\n\n**Top Exam Tip:** \nIn an exam, you can quickly check your answers by plugging them back into the quadratic equation ($x^2 + y^2 = 25$):\n* For $(0, 5)$: $0^2 + 5^2 = 25$ (Correct!)\n* For $(-4, -3)$: $(-4)^2 + (-3)^2 = 16 + 9 = 25$ (Correct!)\n\nYou did an amazing job working through every step of this problem. Would you like to try another one, or do you have any questions about any of the steps we took?"
+    }
+  ],
+  "termination": "solved",
+  "num_turns": 10,
+  "timestamp": "2026-07-21T12:15:01.239664+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__struggling__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor consistently builds on the student's turns, accurately identifying and addressing the student's uncertainty about the factor pair."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses hints and Socratic questions to guide the student through each step without ever revealing the final answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm, encouraging, and natural throughout, with supportive responses to the student's uncertainty and correct answers."
+    },
+    "salient_excerpt": "You are so incredibly close! You actually had the correct numbers on your very first try. \n\nLet's take another look at your first guess: **$-4$ and $1$**. \n\nYou correctly worked out that $-4 \\times 1 = -4$. \n\nNow, let's double-check the addition. If you start at $-4$ on a number line and add $1$ (moving one step to the right), what number do you land on? \n\nWhat is $-4 + 1$?"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__struggling__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor coherently builds on the student's turns, accurately addressing the rounding discrepancy."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor reveals the final answer in the first response and throughout the dialogue names each step for the student to execute, providing no opportunity for the student to work out the strategy themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor consistently uses warm, encouraging language such as 'Great question!', 'You're doing great so far!', and 'Well done!', maintaining a natural and supportive tone."
+    },
+    "salient_excerpt": "Final Answer: The interest rate for the second and third years is **1.8%**."
+  }
+}

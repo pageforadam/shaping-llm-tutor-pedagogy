@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__curious__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and the only correction (and/or) is accurate and helpful."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out each step themselves through Socratic questions (e.g., factorising, finding critical values, interpreting the graph) without revealing the answer."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, enthusiastic praise throughout ('fantastic start', 'spot on', 'brilliant', 'absolutely nailed it') and maintains a natural, supportive tone."
+    },
+    "salient_excerpt": "Are the parts of the curve that are *above* the x-axis between $-1$ and $4$, or are they on the outside of those points?"
+  }
+}

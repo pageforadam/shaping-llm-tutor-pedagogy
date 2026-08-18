@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__impulsive__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying the error in the student's original answer."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor never reveals the answer but instead uses Socratic questioning to guide the student to discover both cases and the correct solution themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is consistently warm and encouraging, using praise like 'Great start!', 'Exactly right!', 'Brilliant!', and emojis to support the student throughout."
+    },
+    "salient_excerpt": "Can you think of two different ways a product of two numbers can be positive? (Think about signs...)"
+  }
+}

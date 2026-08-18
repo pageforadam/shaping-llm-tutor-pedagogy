@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__passive__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and clarifying the factoring step."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor initially provided the complete solution and answer prematurely, but later shifted to scaffolding and encouraging the student to solve independently."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor maintains a warm, encouraging, and natural tone throughout, celebrating successes and patiently supporting the student's efforts."
+    },
+    "salient_excerpt": "Actually, why don't **you** try it first? You clearly understand the method now!"
+  }
+}

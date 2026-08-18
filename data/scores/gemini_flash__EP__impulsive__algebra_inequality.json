@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__impulsive__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying and correcting the student's error in the inequality solution."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor never reveals the answer; instead, it prompts the student to test a value, consider the graph, identify roots and shape, and deduce the correct solution regions through Socratic questioning."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, praising the student's correct steps ('Great job', 'absolutely brilliant') and normalizing the mistake ('really common to make this slip')."
+    },
+    "salient_excerpt": "Let's pick a number in that range, say $x = 0$. If you substitute $x = 0$ into your factorised expression $(x - 4)(x + 1)$, what value do you get, and is it actually greater than $0$?"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__impulsive__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying and locating the student's mistake about the sign cases."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor withholds the final answer initially but then names each step and explains the reasoning directly, leaving the student to merely follow along rather than discover the next step themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, praising the student's correct steps ('great job', 'absolutely correct', 'spot on') and responding supportively to the student's confusion."
+    },
+    "salient_excerpt": "You cannot just set each bracket to be greater than zero. For the product of two terms to be positive (greater than 0), they must have the same sign."
+  }
+}

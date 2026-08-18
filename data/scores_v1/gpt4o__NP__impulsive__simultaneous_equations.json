@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__impulsive__simultaneous_equations",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All maths is correct; the tutor accurately identifies the student's expansion error and provides the correct steps, building on the student's prior work."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor immediately reveals the correct solution and steps without guiding the student to find the mistake themselves, which is closer to solving it for the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses a warm, positive tone, praises the student for catching the mistake, and includes an emoji, making the interaction encouraging and natural."
+    },
+    "salient_excerpt": "It looks like you made a small mistake in simplifying the equation after substitution. Let me walk you through the correct steps."
+  }
+}

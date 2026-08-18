@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__struggling__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns by addressing specific questions about expansion, factorisation, and solving."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor initially provides the full solution without scaffolding, which is a significant over-tell, though later responses are more explanatory when the student asks for clarification."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm, encouraging, and natural, with positive affirmations like 'Exactly right! You've got it perfectly.' and praise for understanding."
+    },
+    "salient_excerpt": "Exactly right! You've got it perfectly. ✓ Your explanation shows you understand why each term appears, not just the answer, which is the important bit."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__struggling__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical steps are correct and the tutor consistently builds on the student's turns, accurately identifying and correcting the student's misunderstanding about expanding brackets."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor immediately solves the entire problem in the first message, revealing the answer with no scaffolding, and only later provides guidance on the expansion step."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout, celebrates the student's correct steps, and maintains a supportive tone even when correcting errors."
+    },
+    "salient_excerpt": "The key idea is to rearrange the **simpler equation** (the linear one) first, then substitute it into the harder one.\n\n## Step 1: Rearrange the linear equation\n\nTake **y - 2x = 5** and make y the subject:\n\n$$y = 2x + 5$$\n\nThis is much easier to work with than the circle equation.\n\n---\n\n## Step 2: Substitute into the circle equation\n\nReplace every **y** in x² + y² = 25 with **(2x + 5)**:\n\n$$x^2 + (2x + 5)^2 = 25$$\n\nNow expand **(2x + 5)²** — remember to expand it fully:\n\n$$(2x+5)^2 = 4x^2 + 20x + 25$$\n\nSo you get:\n\n$$x^2 + 4x^2 + 20x + 25 = 25$$\n\n$$5x^2 + 20x = 0$$\n\n---\n\n## Step 3: Factorise and solve\n\n$$5x(x + 4) = 0$$\n\nSo **x = 0** or **x = -4**\n\n---\n\n## Step 4: Find the y values\n\nSubstitute back into y = 2x + 5:\n- When x = 0: **y = 5**\n- When x = -4: **y = -3**\n\n---\n\n## Final answers:\n$$x = 0, \\ y = 5 \\qquad \\text{or} \\qquad x = -4, \\ y = -3$$"
+  }
+}

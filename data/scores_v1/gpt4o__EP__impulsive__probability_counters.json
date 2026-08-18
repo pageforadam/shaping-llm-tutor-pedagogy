@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__impulsive__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor consistently builds on the student's turns, accurately identifying the mistake and guiding to the correct solution."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "Mostly scaffolds by confirming the student's setup, but then solves the equation step-by-step and reveals the answer prematurely rather than using Socratic questioning to let the student find the error."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout, praising effort and framing mistakes as learning opportunities, which feels natural and supportive."
+    },
+    "salient_excerpt": "That’s a fantastic attitude—mistakes are such a valuable part of learning! It’s great that you’re reflecting on where things might have gone off track."
+  }
+}

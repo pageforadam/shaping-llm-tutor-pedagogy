@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__BP__struggling__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct; the tutor accurately explains the formula and steps, and consistently builds on the student's turns by confirming correct ideas and clarifying misconceptions."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor scaffolds with hints and Socratic questions (e.g., asking the student to verify steps), does not reveal the answer prematurely, and guides the student through each step with clear explanations."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, encouraging, and natural throughout, using positive affirmations and emojis to support the student's learning and build confidence."
+    },
+    "salient_excerpt": "Yes, exactly — square rooting both sides is precisely the right instinct! 🎉"
+  }
+}

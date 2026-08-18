@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__passive__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's responses, accurately confirming each correct step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor uses Socratic questioning throughout, prompting the student to derive each step (rearranging, factorising, finding critical values, interpreting the graph) without ever revealing the answer directly."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is consistently warm and encouraging, with frequent praise ('Spot on!', 'Brilliant job!', 'Fantastic job!') and supportive responses to the student's impatience."
+    },
+    "salient_excerpt": "Think about your U-shaped graph crossing the x-axis at -1 and 4. We want to find where the graph is greater than zero (> 0), which means the parts of the curve that are above the x-axis. Looking at your U-shape: Are the parts of the curve above the x-axis between -1 and 4, or are they outside of them (to the left of -1 and to the right of 4)?"
+  }
+}

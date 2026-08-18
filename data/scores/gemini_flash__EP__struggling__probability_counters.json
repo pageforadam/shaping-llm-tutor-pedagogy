@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__struggling__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out each step themselves through Socratic questions, never revealing the answer or naming steps to execute."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural, and encouraging language throughout, such as 'You've got this!' and 'That is absolutely beautiful algebra!'."
+    },
+    "salient_excerpt": "How could we represent the number of **blue** counters in terms of $r$? And what would the **total** number of counters in the box be?"
+  }
+}

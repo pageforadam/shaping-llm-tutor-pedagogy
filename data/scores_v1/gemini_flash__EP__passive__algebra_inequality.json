@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__passive__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and confirming each correct step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses hints, Socratic questions, and scaffolding to guide the student through each step without ever revealing the final answer prematurely, even when the student asks for it directly."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, encouraging, and natural throughout, praising the student's efforts and responding supportively to requests for the answer by reframing them as opportunities to learn."
+    },
+    "salient_excerpt": "You have got all the pieces of the puzzle now! Excellent work. We are literally one step away, and you can absolutely do this."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__passive__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical steps are correct and the tutor consistently builds on the student's responses, accurately identifying each step."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive, naming each next step for the student to carry out (e.g., 'divide both sides', 'square root')."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, encouraging, and natural throughout, celebrating the student's successes and responding supportively to frustration."
+    },
+    "salient_excerpt": "I won't just give you the answer, because figuring it out yourself is the best way to ace it in your exams!"
+  }
+}

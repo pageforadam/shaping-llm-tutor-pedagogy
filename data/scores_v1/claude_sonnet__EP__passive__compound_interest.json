@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__passive__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's responses, accurately validating each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor never reveals the answer despite repeated requests, instead breaking the problem into steps and using Socratic questioning to lead the student to solve it themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor maintains a warm, supportive tone throughout, using praise and empathetic responses to keep the student engaged and motivated."
+    },
+    "salient_excerpt": "You're doing brilliantly - honestly, you're doing all the hard work already! Just one more step and you've got it."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__impulsive__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying and correcting the student's initial mistaken answer."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out each step themselves through Socratic questioning, never reveals the answer prematurely, and guides the student to discover the correct solution through algebraic reasoning."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor maintains a warm, encouraging, and natural tone throughout, praising the student's efforts ('Brilliant!', 'Fantastic job!', 'You are doing incredibly well!') and responding supportively even when the student's initial answer was incorrect."
+    },
+    "salient_excerpt": "Since guessing and checking can take a long time, let's try to set this up using algebra. It's a really powerful way to solve these kinds of problems!"
+  }
+}

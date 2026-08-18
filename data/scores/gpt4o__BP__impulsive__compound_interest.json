@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__impulsive__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the student's mistake (square root calculation), and the response builds coherently on the student's turns."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem step-by-step for the student, revealing the final answer (1.8%) in the first response without eliciting any strategic thinking from the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, praising the student for revisiting their work ('No problem at all! It's great that you're revisiting your work') and ending with positive reinforcement ('Well done for sticking with it!')."
+    },
+    "salient_excerpt": "Let's double-check your calculation to ensure it's correct. The problem involves compound interest, so we need to carefully apply the formula and solve for the unknown interest rate \\( x \\) for the second and third years."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__struggling__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and each response builds logically on the student's previous turns, correctly identifying and addressing errors."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "Consistently scaffolds with hints and Socratic questions (e.g., suggesting FOIL, asking for highest common factor) without ever revealing the final answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "Warm, natural, and supportive tone throughout, with specific praise (e.g., 'Spot on!', 'Absolutely brilliant!') and reassurance when mistakes occur."
+    },
+    "salient_excerpt": "You've nailed it! The two values for $x$ are indeed **$x = 0$** and **$x = -4$**."
+  }
+}

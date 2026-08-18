@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__struggling__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor accurately identifies the student's rounding concern and explains it coherently without error."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem step-by-step, providing the final answer and all calculations without using hints or Socratic questioning to let the student derive the solution."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses a warm, supportive tone throughout, validates the student's efforts, and responds positively to the student's uncertainty about rounding."
+    },
+    "salient_excerpt": "Great question! You're absolutely right to check your calculations carefully. Let me explain what's happening here."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__impulsive__compound_interest",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout; the tutor accurately identifies the student's error and provides a clear, step-by-step verification that leads to the correct answer."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor essentially solves the entire problem for the student by naming each step and performing the calculations, rather than prompting the student to work out the next step themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is consistently warm, encouraging, and supportive, praising the student's effort and double-checking, and ending with positive reinforcement."
+    },
+    "salient_excerpt": "Great job rechecking your work! Yes, you're absolutely correct now — the interest rate for the second and third years is indeed **\\(1.8\\%\\)**."
+  }
+}

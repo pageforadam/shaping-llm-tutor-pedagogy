@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__struggling__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and every tutor turn builds coherently on the student's previous response."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out the next step independently through Socratic questions like 'How would you calculate...?' and 'What would be your first step...?', never revealing the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses consistently warm and natural encouragement ('Spot on!', 'That is absolutely brilliant!', 'Fantastic job!', 'You did an amazing job'), responding supportively to the student's initial uncertainty."
+    },
+    "salient_excerpt": "\"What would be your first step to get $M^2$ on its own?\""
+  }
+}

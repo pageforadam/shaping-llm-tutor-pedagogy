@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__curious__simultaneous_equations",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "The tutor's mathematics is flawless and consistently responds to the student's queries and contributions."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor reveals the entire solution in the first turn, including the final answer, rather than guiding the student with hints or questions."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses enthusiastic praise and emojis, creating a supportive atmosphere."
+    },
+    "salient_excerpt": "The solutions to the simultaneous equations are: (x, y) = (0, 5) and (x, y) = (-4, -3)."
+  }
+}

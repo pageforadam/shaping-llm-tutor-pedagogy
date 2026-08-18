@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__impulsive__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor accurately identifies the student's error in expanding (5+2x)^2, building coherently on the student's work."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem step-by-step for the student, revealing the correct expansion, factorisation, and final answers without prompting the student to work through the error themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tone is consistently warm and encouraging, praising the student's start and their ability to identify their own mistake, with natural and supportive language."
+    },
+    "salient_excerpt": "It looks like you may have divided by 5x too early, or made an arithmetic slip when factorising. The coefficient of x is **20**, so the factor is **(x + 4)**, not (x + 2)."
+  }
+}

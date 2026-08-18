@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__impulsive__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "impulsive",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying the incorrect initial answer and guiding to the correct algebraic solution."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor scaffolds with hints and Socratic questions, never reveals the answer prematurely, and guides the student to derive the solution step-by-step."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout, praising the student's efforts and progress, and responds supportively to both correct and incorrect responses."
+    },
+    "salient_excerpt": "To find the correct number, it helps to write it out algebraically. Let's start together: Let the number of red counters be r. Since the ratio is 1:4, the number of blue counters is 4r. This means the total number of counters is 5r. Using r, how would you write the probability of picking the first red counter, and then the second red counter? Give it a go on paper and let me know what you get!"
+  }
+}

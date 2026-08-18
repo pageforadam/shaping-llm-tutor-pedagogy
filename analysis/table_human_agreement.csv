@@ -1,0 +1,4 @@
+dimension,human_mean,llm_mean,llm_minus_human,inter_rater_mean_sd,inter_rater_all_within1,spearman_rho_vs_consensus,spearman_p,weighted_kappa_vs_consensus,llm_within1_of_consensus
+accuracy_coherence,4.54,5.0,0.46,0.57,0.71,,,0.0,0.92
+guidance_no_solution,2.78,2.62,-0.16,0.6,0.62,0.81,0.0,0.81,0.75
+encouragement,4.08,5.0,0.92,0.81,0.38,,,0.0,0.75

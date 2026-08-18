@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__impulsive__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "impulsive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's prior turns, accurately identifying the student's partial solution and extending it."
+    },
+    "guidance_no_solution": {
+      "score": 2,
+      "justification": "The tutor gives the entire algebraic derivation for the second solution, revealing the second x-value prematurely, rather than guiding the student to derive it independently."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, praising the student's initial solution and habit of checking work, making the tone natural and supportive."
+    },
+    "salient_excerpt": "You are absolutely right! ... However, because one of these equations is quadratic ($x^2 + y^2 = 25$, which represents a circle) and the other is linear (a straight line), the line actually crosses the circle in **two** places."
+  }
+}

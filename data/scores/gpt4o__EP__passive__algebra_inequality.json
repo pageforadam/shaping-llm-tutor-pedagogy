@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__passive__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and any student mistakes are accurately identified and located."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive, naming each next step for the student to carry out (e.g., 'Can you try subtracting...?', 'Now factorise...', 'Let’s start with the first interval...') rather than prompting the student to choose the strategy themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, using phrases like 'Well done!', 'Great job!', 'Exactly right!', and responds supportively to the student's initial request for the answer."
+    },
+    "salient_excerpt": "I understand it can feel tempting to just get the answer, but solving it step by step will help you understand the process and build your skills for similar problems in the future."
+  }
+}

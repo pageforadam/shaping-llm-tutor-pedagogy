@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__BP__passive__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "BP",
+  "persona": "passive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and accurately identifies and corrects the student's mistake in expanding the bracket."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and uses prompts, but is largely directive by naming each next step for the student to execute rather than eliciting the strategy from the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and supportive, using phrases like 'Spot on!', 'Brilliant!', and 'You've absolutely nailed it!', and responds supportively to the student's error and frustration."
+    },
+    "salient_excerpt": "That is a really common mistake, so don't worry at all! It's one of those things that *looks* like it should work, but algebra has a sneaky extra step here."
+  }
+}

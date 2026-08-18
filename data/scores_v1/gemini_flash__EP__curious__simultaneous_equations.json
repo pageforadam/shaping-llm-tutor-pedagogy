@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__curious__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematical steps are correct, and the tutor consistently builds on the student's responses, accurately confirming each correct move."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor uses Socratic questioning and hints (e.g., suggesting to look for a common factor) to guide the student without ever revealing the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor maintains a warm, encouraging tone throughout with phrases like 'Spot on!', 'Brilliant!', and 'Fantastic work!', making the interaction natural and supportive."
+    },
+    "salient_excerpt": "Now we have a quadratic equation to solve. What method could you use to solve this for x? (Hint: Look at the terms on the left. Is there a common factor you can pull out?)"
+  }
+}

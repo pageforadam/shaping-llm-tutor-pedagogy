@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__curious__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately identifying and confirming each correct step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out the next step or strategy themselves through Socratic questions, never revealing the answer or naming steps to execute."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout (e.g., 'fantastic start', 'Spot on', 'Excellent work', 'Brilliant!') and responds supportively to the student's progress."
+    },
+    "salient_excerpt": "To help us set up an equation, how would you normally write the formula or calculation for compound interest over 2 years if you started with £2050 and had an interest rate of x%?"
+  }
+}

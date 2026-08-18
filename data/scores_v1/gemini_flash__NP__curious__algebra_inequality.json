@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__curious__algebra_inequality",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's responses, and any potential confusion (like notation options) is clearly addressed without error."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor scaffolds every step with explanations and prompts (factorisation, critical values, parabola reasoning) and never reveals the final answer before the student produces it."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, natural phrasing ('great start', 'spot on', 'you nailed it') throughout, reinforcing each correct step with genuine praise."
+    },
+    "salient_excerpt": "You nailed it! The solution is indeed **$x < -1$ or $x > 4$**. Writing it as **$x < -1$ or $x > 4$** is completely correct and is the most common way to write the answer in algebra."
+  }
+}

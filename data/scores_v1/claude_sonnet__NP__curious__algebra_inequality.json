@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__curious__algebra_inequality",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "curious",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and accurately identifies and addresses the student's confusion about why zeros matter."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor initially gives the full solution and explanation without waiting for the student to attempt the steps, but later scaffolds the student's understanding of why zeros matter and encourages testing points."
+    },
+    "encouragement": {
+      "score": 4,
+      "justification": "The tutor is consistently positive and encouraging, praising the student's efforts ('You've got it exactly right!', 'You've worked through this really methodically'), though the tone is somewhat formal."
+    },
+    "salient_excerpt": "Great question! The key idea is that a continuous expression can only **switch between positive and negative by passing through zero**."
+  }
+}

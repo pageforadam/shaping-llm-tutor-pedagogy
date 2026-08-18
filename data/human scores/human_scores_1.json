@@ -1,0 +1,242 @@
+[
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "claude_sonnet__NP__passive__probability_counters",
+    "display_order": 0,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 1,
+    "encouragement": 4,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gemini_flash__EP__passive__probability_counters",
+    "display_order": 1,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 5,
+    "encouragement": 5,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gpt4o__NP__struggling__simultaneous_equations",
+    "display_order": 2,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 1,
+    "encouragement": 4,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gpt4o__EP__impulsive__compound_interest",
+    "display_order": 3,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 5,
+    "encouragement": 4,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gemini_flash__EP__struggling__simultaneous_equations",
+    "display_order": 4,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 4,
+    "encouragement": 4,
+    "notes": "I like that it talked about the proper math terms",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "claude_sonnet__EP__curious__algebra_inequality",
+    "display_order": 5,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 5,
+    "encouragement": 4,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gpt4o__EP__struggling__simultaneous_equations",
+    "display_order": 6,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 5,
+    "encouragement": 5,
+    "notes": "typo (\na\n+\nb\n)\n2\n=\na\n2\n+\n2\na\nb\n+\nb\n2\n).",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "claude_sonnet__BP__passive__probability_counters",
+    "display_order": 7,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 2,
+    "encouragement": 3,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gpt4o__BP__impulsive__compound_interest",
+    "display_order": 8,
+    "accuracy_coherence": 4,
+    "guidance_no_solution": 1,
+    "encouragement": 3,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "claude_sonnet__EP__impulsive__compound_interest",
+    "display_order": 9,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 5,
+    "encouragement": 4,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gemini_flash__BP__curious__algebra_inequality",
+    "display_order": 10,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 4,
+    "encouragement": 4,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gemini_flash__NP__impulsive__compound_interest",
+    "display_order": 11,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 1,
+    "encouragement": 3,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gpt4o__EP__passive__probability_counters",
+    "display_order": 12,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 5,
+    "encouragement": 4,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gpt4o__NP__passive__probability_counters",
+    "display_order": 13,
+    "accuracy_coherence": 4,
+    "guidance_no_solution": 1,
+    "encouragement": 2,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "claude_sonnet__BP__curious__algebra_inequality",
+    "display_order": 14,
+    "accuracy_coherence": 4,
+    "guidance_no_solution": 3,
+    "encouragement": 3,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "claude_sonnet__NP__curious__algebra_inequality",
+    "display_order": 15,
+    "accuracy_coherence": 4,
+    "guidance_no_solution": 2,
+    "encouragement": 3,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gpt4o__BP__struggling__simultaneous_equations",
+    "display_order": 16,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 1,
+    "encouragement": 4,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gemini_flash__EP__curious__algebra_inequality",
+    "display_order": 17,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 4,
+    "encouragement": 4,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gemini_flash__NP__struggling__simultaneous_equations",
+    "display_order": 18,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 1,
+    "encouragement": 3,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gemini_flash__BP__struggling__simultaneous_equations",
+    "display_order": 19,
+    "accuracy_coherence": 3,
+    "guidance_no_solution": 3,
+    "encouragement": 3,
+    "notes": "Tutor's first response is blank",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gpt4o__BP__passive__probability_counters",
+    "display_order": 20,
+    "accuracy_coherence": 5,
+    "guidance_no_solution": 1,
+    "encouragement": 3,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "gemini_flash__NP__curious__algebra_inequality",
+    "display_order": 21,
+    "accuracy_coherence": 4,
+    "guidance_no_solution": 3,
+    "encouragement": 3,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.278Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "claude_sonnet__BP__impulsive__compound_interest",
+    "display_order": 22,
+    "accuracy_coherence": 4,
+    "guidance_no_solution": 2,
+    "encouragement": 3,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.279Z"
+  },
+  {
+    "evaluator": "Laissa Leonis do Canto",
+    "run_id": "claude_sonnet__NP__impulsive__compound_interest",
+    "display_order": 23,
+    "accuracy_coherence": 4,
+    "guidance_no_solution": 2,
+    "encouragement": 3,
+    "notes": "",
+    "timestamp": "2026-08-05T23:49:29.279Z"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__NP__struggling__simultaneous_equations",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct and the tutor consistently builds on the student's turns, accurately identifying and confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor's first response provides the complete step-by-step solution and final answer without any scaffolding or waiting for the student to attempt, which is a clear violation of guidance without solution-giving."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language, praises the student's correct steps, and maintains a supportive tone throughout the dialogue."
+    },
+    "salient_excerpt": "No problem! Let me guide you step by step to solve these simultaneous equations. The key is to use substitution to reduce the problem to a single equation in one variable. ... The solutions to the simultaneous equations are: (x, y) = (0, 5) and (x, y) = (-4, -3)"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__passive__simultaneous_equations",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "passive",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming each correct step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to work out each next step themselves through Socratic questions, never revealing the answer or naming steps to execute."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor's tone is warm, encouraging, and natural throughout, with frequent positive affirmations like 'Spot on!' and 'Fantastic job!'."
+    },
+    "salient_excerpt": "I can certainly help you work through this step-by-step! Learning how to do it yourself is the best way to make sure you ace it in your exams, and I promise we can get there together. When we have one quadratic equation (with $x^2$ and $y^2$) and one linear equation (like $y - 2x = 5$), a great method to use is **substitution**. To start, let's look at the simpler equation: $$y - 2x = 5$$ How could we rearrange this equation to make $y$ the subject?"
+  }
+}

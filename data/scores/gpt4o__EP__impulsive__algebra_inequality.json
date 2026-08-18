@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__EP__impulsive__algebra_inequality",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "EP",
+  "persona": "impulsive",
+  "question_id": "algebra_inequality",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout; the tutor accurately identifies the student's error in reasoning about the inequality and guides them to the correct solution without any mistakes."
+    },
+    "guidance_no_solution": {
+      "score": 4,
+      "justification": "The tutor withholds the final answer and uses Socratic questioning to elicit the student's reasoning, but the explanation of the 'both positive or both negative' rule is somewhat directive rather than fully discovered by the student."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor consistently uses warm, encouraging language ('You're off to a great start!', 'Well done—your reasoning is spot on now') and responds supportively to the student's initial error."
+    },
+    "salient_excerpt": "The inequality \\((x - 4)(x + 1) > 0\\) means that the product of the two factors must be positive. For a product to be positive, either: 1. Both factors are positive, or 2. Both factors are negative."
+  }
+}

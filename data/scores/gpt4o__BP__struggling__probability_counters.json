@@ -1,0 +1,23 @@
+{
+  "run_id": "gpt4o__BP__struggling__probability_counters",
+  "tutor_key": "gpt4o",
+  "prompt_condition": "BP",
+  "persona": "struggling",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the reasoning is logically coherent, and the tutor builds on the student's stated confusion without contradicting it."
+    },
+    "guidance_no_solution": {
+      "score": 1,
+      "justification": "The tutor solves the entire problem for the student step by step, revealing the final answer without any elicitive questions or prompts for the student to work out the next steps themselves."
+    },
+    "encouragement": {
+      "score": 3,
+      "justification": "The tone is neutral-to-positive and functional ('No problem! Let's break this down step by step'), but lacks warmth or explicit encouragement beyond the opening."
+    },
+    "salient_excerpt": "No problem! Let's break this down step by step."
+  }
+}

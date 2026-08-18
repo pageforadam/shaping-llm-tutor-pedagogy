@@ -1,0 +1,51 @@
+# Model roster — single source of truth for the experiment.
+# Access via OpenRouter (OpenAI-compatible endpoint: https://openrouter.ai/api/v1).
+# Slugs confirmed against OpenRouter, July 2026.
+#
+# TODO at build/piloting time:
+#   - Confirm a dated GPT-4o snapshot slug for reproducibility.
+#   - Pin the upstream `provider` for the open models (Llama, DeepSeek), which have
+#     multiple back-ends that may serve different quantizations.
+#   - Verify temperature=0 is honoured on the thinking models (Gemini, DeepSeek).
+
+# Shared parameters applied to every call unless overridden per-model.
+defaults:
+  temperature: 0            # core experimental control — verify passthrough on thinking models
+  max_tokens: 4000          # cap, not target: generous headroom so verbose/thinking turns and the
+                            # evaluator JSON are never truncated (reasoning tokens count too)
+  referee_max_tokens: 1000  # referee only emits YES/NO (+ hidden reasoning) — small visible output
+  max_rounds: 10            # tutor<->student exchange rounds before forced termination
+                            # (a round = one tutor turn + one student turn; opener not counted)
+  provider:
+    require_parameters: true  # only route to back-ends that honour the params we send
+
+# The three models under test.
+tutors:
+  gpt4o:
+    slug: "openai/gpt-4o-2024-11-20"   # pinned dated snapshot for reproducibility (verified live)
+    label: "GPT-4o (OpenAI)"
+    reasoning: false
+  gemini_flash:
+    slug: "google/gemini-3.5-flash"
+    label: "Gemini 3.5 Flash (Google)"
+    reasoning: true               # thinking model — verify temperature=0 behaviour
+  claude_sonnet:
+    slug: "anthropic/claude-sonnet-4.6"
+    label: "Claude Sonnet 4.6 (Anthropic)"
+    reasoning: false              # run with extended thinking off for standard behaviour
+
+# Simulated learner — plain instruction-tuned model, no thinking tokens.
+student:
+  slug: "meta-llama/llama-4-maverick"
+  label: "Llama 4 Maverick (Meta)"
+  reasoning: false
+  pin_provider: null              # TODO: pin upstream provider for reproducibility
+
+# Dialogue scorer — reasoning-capable, independent of all tutor families.
+evaluator:
+  slug: "deepseek/deepseek-v4-flash"
+  label: "DeepSeek V4 Flash"
+  reasoning: true
+  pin_provider: null              # TODO: pin upstream provider for reproducibility
+  # Upgrade path if piloting shows the judge needs more power (trivial cost at 144 evals):
+  #   slug: "deepseek/deepseek-v4-pro"

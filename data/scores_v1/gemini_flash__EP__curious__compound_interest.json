@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__curious__compound_interest",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's turns, accurately confirming each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses Socratic questions and hints to guide the student through each step without ever revealing the answer prematurely."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm and encouraging throughout, using phrases like 'fantastic start', 'spot on', 'excellent work', and 'brilliant' to support the student."
+    },
+    "salient_excerpt": "That is a fantastic start! You've correctly calculated that Katy has **£2050** at the end of the first year."
+  }
+}

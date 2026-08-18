@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__NP__struggling__simultaneous_equations",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "simultaneous_equations",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct throughout, and the tutor consistently builds on the student's turns, accurately identifying and addressing each point of confusion (expanding brackets, factorising, solving)."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor withholds the final answer and keeps the student working, but is essentially directive—naming each next step (e.g., 'rearrange', 'substitute', 'expand', 'factorise') for the student to carry out, rather than prompting the student to discover the strategy themselves."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm and encouraging, using phrases like 'Exactly right!', 'You've got it perfectly', and 'You worked through all of that really well', and responds supportively to the student's uncertainties."
+    },
+    "salient_excerpt": "You've solved the whole problem. It's worth just summarising the key steps you used, since it's a useful method to remember:"
+  }
+}

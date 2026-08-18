@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__NP__struggling__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "NP",
+  "persona": "struggling",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and accurately identifies and addresses the student's uncertainties."
+    },
+    "guidance_no_solution": {
+      "score": 3,
+      "justification": "The tutor initially provides a full worked solution before the student engages, which is a form of premature solution-giving, though later turns use scaffolding and hints."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is consistently warm, encouraging, and natural, praising the student's correct thinking and supporting their confusion with clear examples."
+    },
+    "salient_excerpt": "You are **100% correct** on both counts!"
+  }
+}

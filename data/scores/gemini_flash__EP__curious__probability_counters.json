@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini_flash__EP__curious__probability_counters",
+  "tutor_key": "gemini_flash",
+  "prompt_condition": "EP",
+  "persona": "curious",
+  "question_id": "probability_counters",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, and the tutor consistently builds on the student's responses, accurately confirming and extending each step."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently prompts the student to derive each step themselves through Socratic questions, never revealing the answer or naming steps to execute."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor uses warm, encouraging language throughout (e.g., 'Spot on!', 'Perfect!', 'Fantastic job!') and responds supportively to the student's progress."
+    },
+    "salient_excerpt": "How would you go about solving this equation for $r$? What do you think is a good first step to make it look a bit simpler?"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "claude_sonnet__EP__struggling__compound_interest",
+  "tutor_key": "claude_sonnet",
+  "prompt_condition": "EP",
+  "persona": "struggling",
+  "question_id": "compound_interest",
+  "evaluator_model": "deepseek/deepseek-v4-flash",
+  "scores": {
+    "accuracy_coherence": {
+      "score": 5,
+      "justification": "All mathematics is correct, the tutor consistently builds on the student's turns, and any potential confusion (like the multiplier) is clarified accurately."
+    },
+    "guidance_no_solution": {
+      "score": 5,
+      "justification": "The tutor consistently uses Socratic questions and hints to guide the student step-by-step, never revealing the final answer prematurely even when the student hesitates."
+    },
+    "encouragement": {
+      "score": 5,
+      "justification": "The tutor is warm, encouraging, and natural throughout, celebrating correct steps with emojis and positive reinforcement, and responding supportively to the student's doubt about the answer."
+    },
+    "salient_excerpt": "You should also feel good about how you solved this — you broke it down really well: 1. Found the amount after year 1 (£2050) 2. Set up an equation using the compound interest multiplier 3. Solved it step by step by dividing, then square rooting"
+  }
+}
